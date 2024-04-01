@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SPA MANAGEMENT</title>
+
+  <link rel="stylesheet" href="/style/common.css">
+  </link>
+  <link rel="stylesheet" href="/style/Index.css">
+  </link>
+  <link rel="stylesheet" href="/style/Block_modal.css">
+  </link>
+
+  <!-- Boostrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Boostrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+  <!-- <section>
+    <button id="menu-button">
+      <i class="bi bi-clipboard-data" style="color: #ffff; font-size: 24px"></i>
+    </button>
+    <ul id="menu-items">
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Today Booking</label>
+        </div>
+        <li>23</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Total Booking</label>
+        </div>
+        <li>12Cr</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Today Collection</label>
+        </div>
+        <li>29k</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Total Collection</label>
+        </div>
+        <li>230k</li>
+      </div>
+    </ul>
+  </section> -->
+
+  <!-- Header Start -->
+  <header>
+    <div class="header_wrapper">
+      <div class="right-nav-side">
+        <div class="d-flex">
+          <i class="bi bi-list me-2" style="font-size: 28px; font-weight: bold;" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+          <div class="d-flex">
+            <img src="images/spa.png" class="img_width me-2" />
+            <h4 class="text_align">Miami Thai Spa</h4>
+          </div>
+        </div>
+        <div class="d-flex align-items-center icon_color">
+          <div class="person_font">
+            <i class="bi bi-person-plus-fill "></i>
+          </div>
+          <div class="icon_padding">
+            <i class="bi bi-arrows-fullscreen"></i>
+          </div>
+          <div class="login-credien">
+            <h5>Miami Thai Spa</h5>
+            <h6>Administrator</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+  <!-- Header end -->
+  <!-- Offcanvas Start -->
+
+  <div class="offcanvas bg_offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="/images/spa.png" width="32px"
+          class="me-2" />Miami Thai Spa</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="single_line"></div>
+      <div>
+        <a href="index.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-house-add"></i>
+            <h6>Home</h6>
+          </div>
+        </a>
+        <div class="offcanvas-link">
+          <i class="bi bi-clock"></i>
+          <h6>Planner</h6>
+        </div>
+        <a href="Search_client.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-person"></i>
+            <h6>Search Client</h6>
+          </div>
+        </a>
+        <a href="Membership.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-people-fill"></i>
+            <h6>Membarship</h6>
+          </div>
+        </a>
+        <div class="offcanvas-link">
+          <i class="bi bi-house-add"></i>
+          <h6>Report</h6>
+        </div>
+        <a href="Dashboard.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-ui-checks-grid"></i>
+            <h6>Dashboard</h6>
+          </div>
+        </a>
+        <div class="offcanvas-link">
+          <i class="bi bi-clipboard-data"></i>
+          <h6>Record</h6>
+        </div>
+        <a href="Modify_Membership.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-currency-rupee"></i>
+            <h6>Modify Membership</h6>
+          </div>
+        </a>
+        <a href="Settings.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-gear"></i>
+            <h6>Settings</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- offcanvas end -->
+
+
+  <div class="ul_text top-menu-section">
+    <ul>
+      <li>
+        <div class="top-menu">
+         <div> <i class="bi bi-house-add"></i></div>
+          <h6>Home</h6>
+        </div>
+      </li>
+      <li>
+        <div class="top-menu1">
+          <div><i class="bi bi-clock"></i></div>
+          <h6>Planner</h6>
+        </div>
+      </li>
+      <li>
+        <a href="Search_client.html" style="text-decoration: none;">
+          <div class="top-menu1">
+           <div><i class="bi bi-person"></i></div>
+            <h6>Search Client</h6>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="Membership.html" style="text-decoration: none;">
+          <div class="top-menu1">
+           <div> <i class="bi bi-people-fill"></i></div>
+            <h6>Membership</h6>
+          </div>
+        </a>
+      </li>
+      <li>
+        <div class="top-menu1">
+        <div><i class="bi bi-clipboard-data"></i></div>
+          <h6>Report</h6>
+        </div>
+      </li>
+      <li>
+        <a href="Dashboard.html" style="text-decoration: none;">
+          <div class="top-menu1">
+            <div><i class="bi bi-ui-checks-grid"></i></div>
+            <h6>Dashboard</h6>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <div class="top-menu1">
+          <div><i class="bi bi-journal-text"></i></div>
+          <h6>Records</h6>
+        </div>
+      </li>
+
+      <li>
+        <a href="Modify_Membership.html">
+          <div class="top-menu1">
+           <div><i class="bi bi-currency-rupee"></i></div>
+            <h6>Modify Membership</h6>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="Settings.html">
+          <div class="top-menu1">
+           <div><i class="bi bi-gear"></i></div>
+            <h6>Settings</h6>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- tabs start-->
+
+
+  <div class=" mt-2">
+    <ul class="nav nav-pills1" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="tab-button all-btn" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+          role="tab" aria-controls="pills-all" aria-selected="true">
+          <div class="tab-counter" style="color: #4279ed">0</div>
+          <h2 style="color: #4279ed">All</h2>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="tab-button open-btn" id="pills-open-tab" data-bs-toggle="pill" data-bs-target="#pills-open"
+          type="button" role="tab" aria-controls="pills-open" aria-selected="false">
+          <div class="tab-counter" style="color: #232323">0</div>
+          <h2 style="color: #232323">Open</h2>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="tab-button new-btn" id="pills-new-tab" data-bs-toggle="pill" data-bs-target="#pills-new"
+          type="button" role="tab" aria-controls="pills-new" aria-selected="false">
+          <div class="tab-counter" style="color: #db4437">0</div>
+          <h2 style="color: #db4437">New</h2>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="tab-button CheackIn-btn" id="pills-cheackIn-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-cheackIn" type="button" role="tab" aria-controls="pills-cheackIn"
+          aria-selected="false">
+          <div class="tab-counter" style="color: #f4b400">0</div>
+          <h2 style="color: #f4b400">CheackIn</h2>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="tab-button Cancel-btn" id="pills-cancel-tab" data-bs-toggle="pill" data-bs-target="#pills-cancel"
+          type="button" role="tab" aria-controls="pills-cancel" aria-selected="false">
+          <div class="tab-counter" style="color: #cccccc">0</div>
+          <h2 style="color: #cccccc">Cancel</h2>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="tab-button Complete-btn" id="pills-complete-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-complete" type="button" role="tab" aria-controls="pills-complete"
+          aria-selected="false">
+          <div class="tab-counter" style="color: #0f9d58">0</div>
+          <h2 style="color: #0f9d58">Complete</h2>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a href="AddNew.html" style="text-decoration: none;">
+          <button class="tab-button add-btn" type="button" style="margin-left: 13px">
+            <div class="tab-counter" style="color: orange">&#43;</div>
+            <h2 style="color: orange">Add New</h2>
+          </button>
+        </a>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <button class="tab-button block-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          class="renew-btn" onclick="openModal()">
+          <div class="tab-counter" style="color: red">0</div>
+          <h2 style="color: red">Block</h2>
+        </button>
+      </li>
+
+      <!-- block modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content modal-content1">
+            <div>
+              <h1 class="modal-title fs-5 mt-3" id="exampleModalLabel">
+                <i class="bi bi-plus-square-fill" style="color:#173F62; font-size: 22px;padding-left: 20px;"></i> 
+                New Appointment
+               </h1>
+              <button type="button" class="btn-close close-clr" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="icon-size">&times;</span>
+              </button>
+            </div>
+            <div class=" filter_section mt-3">
+                  <div class="row">
+                  <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12">
+                    <div class="form-section">
+                      <label class="me-2">Client Name</label>
+                     <input class="form-control" type="text" />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12">
+                    <div class="form-section">
+                      <label  class="me-2">Mobile No</label>
+                    <input class="form-control" type="text" />
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row mt-2">
+                <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12">
+                  <div class="form-section">
+                    <label class="me-2">Date & Time</label>
+                    <div >
+                      <input type="datetime-local"  class="form-control time-width" /> 
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12">
+                  <div class="form-section">
+                    <label  class="me-2">Therapist</label>
+                      <select class="form-select" aria-label="select">
+                        <option>--</option>
+                        <option>1.Doie</option>
+                        <option>2.Maria</option>
+                        <option>3.Nuie</option>
+                        <option>4.Shum</option>
+                        <option>5.Zaie</option>
+                      </select>
+                    </div>
+                </div>
+              </div>
+
+              <div id="appointmentModal" style="margin: 20px 0;">
+                <div class="navbar navbar1">
+                  <button class="arrow-btn" onclick="changeDate(-1)">&#9665;</button>
+                  <div class="date" id="currentDate"></div>
+                  <button class="arrow-btn" onclick="changeDate(1)">&#9655;</button>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card_padding">
+                      <div class="card card_width" >
+                        <h5 class="card-header days">
+                          <img src="images/sunrise.png" style="height: 20px;"/> Morning
+                        </h5>
+                        <div class="card-body">
+                          <div class="card-text">
+                            <div class="d-flex">
+                              <div class="time-box" onclick="selectTime(this)">9:00</div>
+                              <div class="time-box" onclick="selectTime(this)">9:15</div>
+                              <div class="time-box" onclick="selectTime(this)">9:30</div>
+                              <div class="time-box" onclick="selectTime(this)">9:45</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="time-box" onclick="selectTime(this)">10:00</div>
+                              <div class="time-box " onclick="selectTime(this)">10:15</div>
+                              <div class="time-box" onclick="selectTime(this)">10:30</div>
+                              <div class="time-box" onclick="selectTime(this)">10:45</div>
+                            </div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="time-box" onclick="selectTime(this)">11:00</div>
+                            <div class="time-box" onclick="selectTime(this)">11:15</div>
+                            <div class="time-box" onclick="selectTime(this)">11:30</div>
+                            <div class="time-box booked-bg" onclick="selectTime(this)">11:45</div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="time-box" onclick="selectTime(this)">12:00</div>
+                            <div class="time-box" onclick="selectTime(this)">12:15</div>
+                            <div class="time-box" onclick="selectTime(this)">12:30</div>
+                            <div class="time-box booked-bg" onclick="selectTime(this)">12:45</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="card_padding2">
+                      <div class="card card_width" >
+                        <h5 class="card-header days">
+                          <img src="images/pm.png" style="height: 20px;"/> Afternoon
+                        </h5>
+                        <div class="card-body">
+
+                          <div class="card-text">
+                              <div class="d-flex">
+                              <div class="time-box" onclick="selectTime(this)">1:00</div>
+                              <div class="time-box" onclick="selectTime(this)">1:15</div>
+                              <div class="time-box" onclick="selectTime(this)">1:30</div>
+                              <div class="time-box" onclick="selectTime(this)">1:45</div>
+                            </div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="time-box" onclick="selectTime(this)">2:00</div>
+                            <div class="time-box" onclick="selectTime(this)">2:15</div>
+                            <div class="time-box booked-bg" onclick="selectTime(this)">2:30</div>
+                            <div class="time-box" onclick="selectTime(this)">2:45</div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="time-box" onclick="selectTime(this)">3:00</div>
+                            <div class="time-box" onclick="selectTime(this)">3:15</div>
+                            <div class="time-box" onclick="selectTime(this)">3:30</div>
+                            <div class="time-box" onclick="selectTime(this)">3:45</div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="time-box" onclick="selectTime(this)">4:00</div>
+                            <div class="time-box booked-bg" onclick="selectTime(this)">4:15</div>
+                            <div class="time-box" onclick="selectTime(this)">4:30</div>
+                            <div class="time-box" onclick="selectTime(this)">4:45</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="card_padding3">
+                      <div class="card card_width">
+                        <h5 class="card-header days">
+                          <img src="images/moon.png" style="height: 20px;"/> Evening
+                        </h5>
+                        <div class="card-body">
+                          <div class="card-text">
+                              <div class="d-flex">
+                              <div class="time-box" onclick="selectTime(this)">5:00</div>
+                              <div class="time-box" onclick="selectTime(this)">5:15</div>
+                              <div class="time-box" onclick="selectTime(this)">5:30</div>
+                              <div class="time-box" onclick="selectTime(this)">5:45</div>
+                            </div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="time-box" onclick="selectTime(this)">6:00</div>
+                            <div class="time-box booked-bg" onclick="selectTime(this)">6:15</div>
+                            <div class="time-box" onclick="selectTime(this)">6:30</div>
+                            <div class="time-box" onclick="selectTime(this)">6:45</div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="time-box" onclick="selectTime(this)">7:00</div>
+                            <div class="time-box" onclick="selectTime(this)">7:15</div>
+                            <div class="time-box" onclick="selectTime(this)">7:30</div>
+                            <div class="time-box" onclick="selectTime(this)">7:45</div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="time-box" onclick="selectTime(this)">8:00</div>
+                            <div class="time-box booked-bg" onclick="selectTime(this)">8:15</div>
+                            <div class="time-box" onclick="selectTime(this)">8:30</div>
+                            <div class="time-box" onclick="selectTime(this)">8:45</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+              
+            </div>
+            <div class="btns-modal">
+              <button type="button" class="btn btn-outline-danger me-1" data-bs-dismiss="modal">CANCEL</button>
+              <button type="button" class="btn btn-success">ADD APPOINTMENT</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </ul>
+
+    <!-- tabs end-->
+    <div class="main_bgclr">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 col-xl-6 col-sm-12">
+            <ul class="calendar_text">
+              <li>
+                  <div class="calender_margin">
+                    <i class="bi bi-calendar3 me-1"></i>
+                      <input type="date" id="date"  class="calendar_icon input_calender" >
+                  </div>
+                </li>
+              <li>
+                <div class="px-3">
+                  <label class="cl-checkbox">
+                    <input checked="" type="checkbox">
+                    <span>Cancel</span>
+                  </label>
+                  <label class="cl-checkbox">
+                    <input checked="" type="checkbox">
+                    <span>Membership</span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-6 col-md-4 col-xl-6 col-sm-6">
+            <div class="Action-bar-right-section align_center">
+              <div class="dropdown me-2">
+                <button class="btn-dropdown dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Therapist
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">1. Doie : 0</a>
+                  <a class="dropdown-item" href="#">2. Maria : 0</a>
+                  <a class="dropdown-item" href="#">3. Nuie : 0</a>
+                  <a class="dropdown-item" href="#">4. Shum : 0</a>
+                  <a class="dropdown-item" href="#">5. Zaie : 0</a>
+                </div>
+              </div>
+              <button class="button-45"><i class="bi bi-plus"></i>New</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="table-responsive">
+        <table class="table table_bgclr table_hidden">
+          <thead>
+            <tr>
+              <th style="width:0%;">SNo</th>
+              <th style="width:8%;">Client Name</th>
+              <th style="width:6%;">Therapy</th>
+              <th style="width:1%;">Therapist</th>
+              <th style="width:5%;">In-Out</th>
+              <th style="width:2%;">Paid</th>
+              <th style="width:3%;">Mode</th>
+              <th style="width:5%;">Status</th>
+              <th style="width:0%;">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="srnumber">1</span>
+              </td>
+              <td>
+                <div class="use">
+                  <div>
+                    <span>Harshal M Mahajan</span>
+                    <span class="number-round">2</span>
+                    <p class="txt-size">1234567890</p>
+                    <p class="txt-size1">Male,Pune</p>
+                  </div>
+                  <div>
+                    <span><i class="bi bi-person-fill-check fill-check"></i></span>
+                  </div>
+                </div>
+
+              </td>
+
+              <td>Deep Tissie Therapy
+                <div>
+                <i class="bi bi-stopwatch watch-clr"></i>
+                  <span class="mins"> 90 mins</span>
+                </div>
+              </td>
+              <td>
+                <center>Maria
+                  <div>
+                    <i class="bi bi-house-heart house"></i>
+                    <span>12</span>
+                  </div>
+                </center>
+              </td>
+
+              <td class="text-center">10 Am To 10.30 Am</td>
+              <td class="text-center">500</td>
+              <td class="text-center ">Cash
+                <i class="bi bi-currency-rupee" style="color: purple; font-size: 16px;"></i>
+              </td>
+
+              <td>
+                <select class="form-select">
+                  <option>New</option>
+                  <option class="check">CheackIn</option>
+                  <option class="check">Completed</option>
+                  <option class="check">Cancel</option>
+                </select>
+              </td>
+              <td>
+
+                <div class="dropdown">
+                  <center><i class="bi bi-three-dots-vertical" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                    <div class="dropdown-menu">
+                      <div>
+                        <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                          Edit</a>
+                        </i>
+                      </div>
+                      <div>
+                        <a class="dropdown-item" href="#">
+                          <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                      </div>
+                    </div>
+                  </center>
+                </div>
+              </td>
+            </tr>
+
+            <tr class="hide-table-padding">
+              <td colspan="11">
+                <div class="collapse" id="collapseExample">
+                  <div class="table-collapse-section">
+                    Anim pariatur cliche reprehenderit, enim eiusmod
+                    high life accusamus terry richardson ad squid. Nihil
+                    anim keffiyeh helvetica, craft beer labore wes anderson
+                    cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td><span class="srnumber1">2</span></td>
+              <td>
+                <div class="use">
+                  <div>
+                    <span><i class="bi bi-star-fill star"></i></span>
+                    Sanjay JOshi
+                    <span class="number-round1">11</span>
+                    <p class="txt-size">1234567890</p>
+                    <p class="txt-size1">Male,Pune</p>
+                  </div>
+                  <div>
+                    <span><i class="bi bi-people-fill users"></i></span>
+                  </div>
+                </div>
+
+              </td>
+              <td>Deep Tissie Therapy
+                <div>
+                  <i class="bi bi-stopwatch watch-clr"></i>
+                    <span class="mins"> 90 mins</span>
+                  </div>
+              </td>
+              <td>
+                <center>Maria
+                  <div>
+                    <i class="bi bi-house-heart house"></i>
+                    <span>3</span>
+                  </div>
+                </center>
+              </td>
+
+              <td class="text-center">10 Am To 10.30 Am</td>
+              <td class="text-center">300</td>
+              <td class="text-center">Card
+                <i class="bi bi-credit-card" style="color: #F3B493; font-size: 16px"></i>
+              </td>
+
+              <td>
+                <select class="form-select">
+                  <option><span>New</option>
+                  <option>CheackIn</option>
+                  <option>Completed</option>
+                  <option>Cancel</option>
+                </select>
+              </td>
+              <td>
+                <div class="dropdown">
+                  <center><i class="bi bi-three-dots-vertical" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                    <div class="dropdown-menu">
+                      <div>
+                        <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                          Edit</a>
+                        </i>
+                      </div>
+                      <div>
+                        <a class="dropdown-item" href="#">
+                          <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                      </div>
+                    </div>
+                  </center>
+                </div>
+              </td>
+            </tr>
+
+            <tr class="hide-table-padding">
+              <td colspan="11">
+                <div class="collapse" id="collapseExample">
+                  <div class="table-collapse-section">
+                    Anim pariatur cliche reprehenderit, enim eiusmod
+                    high life accusamus terry richardson ad squid. Nihil
+                    anim keffiyeh helvetica, craft beer labore wes anderson
+                    cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td><span class="srnumber1">3</span></td>
+              <td>
+                <div class="use">
+                  <div>
+                    <span><i class="bi bi-star-fill star"></i></span>
+                    <span class="name-clr"> Paresh Patil
+                      <span class="number-round">9</span></span>
+                    <p class="txt-size">1234567890</p>
+                    <p class="txt-size1">Male,Pune</p>
+                  </div>
+                  <div>
+                    <span><i class="bi bi-people-fill users"></i></span>
+                  </div>
+                </div>
+
+              </td>
+              <td>Deep Tissie Therapy
+                <div>
+                  <i class="bi bi-stopwatch watch-clr"></i>
+                    <span class="mins"> 90 mins</span>
+                  </div>
+              </td>
+              <td>
+                <center>Maria
+                  <div>
+                    <i class="bi bi-house-heart house"></i>
+                    <span>3</span>
+                  </div>
+                </center>
+              </td>
+
+              <td class="text-center">10 Am To 10.30 Am</td>
+              <td class="text-center">450</td>
+              <td class="text-center">G-pay
+                <i class="bi bi-google" style="color: #34A853; font-size: 16px;"></i>
+              </td>
+
+              <td>
+                <select class="form-select">
+                  <option><span>New</option>
+                  <option>CheackIn</option>
+                  <option>Completed</option>
+                  <option>Cancel</option>
+                </select>
+              </td>
+              <td>
+                <div class="dropdown">
+                  <center><i class="bi bi-three-dots-vertical" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                    <div class="dropdown-menu">
+                      <div>
+                        <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                          Edit</a>
+                        </i>
+                      </div>
+                      <div>
+                        <a class="dropdown-item" href="#">
+                          <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                      </div>
+                    </div>
+                  </center>
+                </div>
+              </td>
+            </tr>
+
+            <tr class="hide-table-padding">
+              <td colspan="11">
+                <div class="collapse" id="collapseExample">
+                  <div class="table-collapse-section">
+                    Anim pariatur cliche reprehenderit, enim eiusmod
+                    high life accusamus terry richardson ad squid. Nihil
+                    anim keffiyeh helvetica, craft beer labore wes anderson
+                    cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td><span class="srnumber1">4</span></td>
+              <td>
+                <div class="use">
+                  <div>
+                    <span><i class="bi bi-star-fill star"></i></span>
+                    <span> Paresh Patil
+                      <span class="number-round1">12</span></span>
+                    <p class="txt-size">1234567890</p>
+                    <p class="txt-size1">Male,Pune</p>
+                  </div>
+                  <div>
+                    <span><i class="bi bi-people-fill users"></i></span>
+                  </div>
+                </div>
+
+              </td>
+              <td>Deep Tissie Therapy
+                <div>
+                  <i class="bi bi-stopwatch watch-clr"></i>
+                    <span class="mins"> 90 mins</span>
+                  </div>
+              </td>
+              <td>
+                <center>Maria
+                  <div>
+                    <i class="bi bi-house-heart house"></i>
+                    <span>8</span>
+                  </div>
+                </center>
+              </td>
+
+              <td class="text-center">10 Am To 10.30 Am</td>
+              <td class="text-center">500</td>
+              <td class="text-center">P-pay
+                <i class="bi bi-paypal" style="color: #6739B7; font-size: 16px;"></i>
+              </td>
+
+              <td>
+                <select class="form-select">
+                  <option><span>New</option>
+                  <option>CheackIn</option>
+                  <option>Completed</option>
+                  <option>Cancel</option>
+                </select>
+              </td>
+              <td>
+                <div class="dropdown">
+                  <center><i class="bi bi-three-dots-vertical" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                    <div class="dropdown-menu">
+                      <div>
+                        <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                          Edit</a>
+                        </i>
+                      </div>
+                      <div>
+                        <a class="dropdown-item" href="#">
+                          <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                      </div>
+                    </div>
+                  </center>
+                </div>
+              </td>
+            </tr>
+
+            <tr class="hide-table-padding">
+              <td colspan="11">
+                <div class="collapse" id="collapseExample">
+                  <div class="table-collapse-section">
+                    Anim pariatur cliche reprehenderit, enim eiusmod
+                    high life accusamus terry richardson ad squid. Nihil
+                    anim keffiyeh helvetica, craft beer labore wes anderson
+                    cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- mobile view tab start-->
+
+      <div class="mt-3 mobilecard">
+        <div class="MoibleCard">
+          <div class="d-flex justify-content-between">
+            <div class="clsheader">
+              <span class="srno">1</span>
+              <div class="d-flex align-items-start">
+                <span class="name">
+                  Harshal M Mahajan
+                </span>
+                <span class="number-bg">2</span>
+              </div>
+              <p>1234567890</p>
+              <p class="clsGender">Male,Pune</p>
+            </div>
+            <a href="">
+              <i class="bi bi-person-fill-check fill-check"></i>
+            </a>
+          </div>
+
+          <div class="data">
+            Deep Tissie Therapy
+            <span>90 mins</span>
+          </div>
+          <div class="user">
+            <strong>
+              <span style="font-weight: bold;">Maria</span>
+              <br>
+              <i class="bi bi-house-heart ">12</i>
+            </strong>
+            <span class="timing">
+              <i class="bi bi-clock-history"></i>
+              <span>10 Am To</span>
+              <span>10.30 Am</span>
+            </span>
+          </div>
+
+          <div class="amt">
+            <div>
+              <label>Payable</label><br>
+              <span class="inr">
+                500/-</span>
+            </div>
+            <div class="line"></div>
+            <div>
+              <label>Paid</label><br>
+              <span class="inr clsinrpaid">
+                400/-
+              </span>
+            </div>
+          </div>
+
+          <div class="clsButtonSection">
+            <select class="form-select">
+              <option>New</option>
+              <option class="check">CheackIn</option>
+              <option class="check">Completed</option>
+              <option class="check">Cancel</option>
+            </select>
+
+            <span class="clsMobViewBtn">
+              <a class="btn-success btnclr">
+                <i class="bi bi-pencil-square"></i>
+                <span>Edit</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- mobile view tab end-->
+
+      <div class="mt-3 mobilecard">
+        <div class="MoibleCard">
+          <div class="d-flex justify-content-between">
+            <div class="clsheader">
+              <span class="srno">2</span>
+              <div class="d-flex align-items-start">
+                <span class="name">
+                  <i class="bi bi-star-fill star"></i>
+                  Sanjay JOshi
+                </span>
+                <span class="number-bg">11</span>
+              </div>
+              <p>1234567890</p>
+              <p class="clsGender">Male,Pune</p>
+            </div>
+            <a href="">
+              <i class="bi bi-people-fill users"></i>
+            </a>
+          </div>
+
+          <div class="data">
+            Deep Tissie Therapy
+            <span>90 mins</span>
+          </div>
+          <div class="user">
+            <strong>
+              <span style="font-weight: bold;">Maria</span>
+              <br>
+              <i class="bi bi-house-heart ">12</i>
+            </strong>
+            <span class="timing">
+              <i class="bi bi-clock-history"></i>
+              <span>10 Am To</span>
+              <span>10.30 Am</span>
+            </span>
+          </div>
+
+          <div class="amt">
+            <div>
+              <label>Payable</label><br>
+              <span class="inr">
+                500/-</span>
+            </div>
+            <div class="line"></div>
+            <div>
+              <label>Paid</label><br>
+              <span class="inr clsinrpaid">
+                400/-
+              </span>
+            </div>
+          </div>
+
+          <div class="clsButtonSection">
+            <select class="form-select">
+              <option>New</option>
+              <option class="check">CheackIn</option>
+              <option class="check">Completed</option>
+              <option class="check">Cancel</option>
+            </select>
+
+            <span class="clsMobViewBtn">
+              <a class="btn-success btnclr">
+                <i class="bi bi-pencil-square"></i>
+                <span>Edit</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-3 mobilecard">
+        <div class="MoibleCard">
+          <div class="d-flex justify-content-between">
+            <div class="clsheader">
+              <span class="srno">3</span>
+              <div class="d-flex align-items-start">
+                <span class="name">
+                  <i class="bi bi-star-fill star"></i>
+                  Paresh Patil
+                </span>
+                <span class="number-bg">9</span>
+              </div>
+              <p>1234567890</p>
+              <p class="clsGender">Male,Pune</p>
+            </div>
+            <a href="">
+              <i class="bi bi-people-fill users"></i>
+            </a>
+          </div>
+
+          <div class="data">
+            Deep Tissie Therapy
+            <span>90 mins</span>
+          </div>
+          <div class="user">
+            <strong>
+              <span style="font-weight: bold;">Maria</span>
+              <br>
+              <i class="bi bi-house-heart ">12</i>
+            </strong>
+            <span class="timing">
+              <i class="bi bi-clock-history"></i>
+              <span>10 Am To</span>
+              <span>10.30 Am</span>
+            </span>
+          </div>
+
+          <div class="amt">
+            <div>
+              <label>Payable</label><br>
+              <span class="inr">
+                500/-</span>
+            </div>
+            <div class="line"></div>
+            <div>
+              <label>Paid</label><br>
+              <span class="inr clsinrpaid">
+                400/-
+              </span>
+            </div>
+          </div>
+
+          <div class="clsButtonSection">
+            <select class="form-select">
+              <option>New</option>
+              <option class="check">CheackIn</option>
+              <option class="check">Completed</option>
+              <option class="check">Cancel</option>
+            </select>
+
+            <span class="clsMobViewBtn">
+              <a class="btn-success btnclr">
+                <i class="bi bi-pencil-square"></i>
+                <span>Edit</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- mobile view tab end-->
+
+      <div class="panel-body table_border">
+        <div data-toggle="collapse" data-target="#demo1" class="accordion-toggle">
+          <div class="text-left collection today_left" colspan="12">
+            <p class="today_left ">
+              <img src="/images/push-pin.png" class="total_img" />
+              Today Collection
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </p>
+          </div>
+        </div>
+        <div class="table_container">
+          <table class="table  table2 table-condensed">
+            <tbody class="accordian-body collapse" id="demo1">
+              <tr class="text-center">
+                <th>Payment Mode</th>
+                <th scope="col">Therapy Collection</th>
+                <th scope="col">Membership</th>
+                <th scope="col">Net Total</th>
+              </tr>
+              <tr class="text-center">
+                <th scope="row" class="text-left">
+                  <p class="cash">Cash
+                    <i class="bi bi-currency-rupee" style="color: purple; font-size: 20px; padding-left: 10px;"></i>
+                  </p>
+                </th>
+                <td class="text-center">500</td>
+                <td></td>
+                <td class="text-center">500</td>
+              </tr>
+
+              <tr class="text-center">
+                <th scope="row" class="text-left">
+                  <p class="cash">Card
+                    <i class="bi bi-credit-card" style="color: #F3B493; font-size: 20px;padding-left: 10px;"></i>
+                  </p>
+                </th>
+                <td></td>
+                <td class="text-center">5000</td>
+                <td class="text-center">5000</td>
+              </tr>
+
+              <tr class="text-center">
+                <th scope="row" class="text-left">
+                  <p class="cash">Gpay
+                    <i class="bi bi-google" style="color: 	#34A853; font-size: 20px;padding-left: 10px;"></i>
+                  </p>
+                </th>
+                <td></td>
+                <td class="text-center">0</td>
+                <td class="text-center">0</td>
+              </tr>
+
+              <tr class="text-center">
+                <th scope="row" class="text-left">
+                  <p class="cash">Phonepe
+                    <i class="bi bi-paypal" style="color: #6739B7; font-size: 20px;padding-left: 10px;"></i>
+                  </p>
+                </th>
+                <td class="text-center">1000</td>
+                <td class="text-center">6000</td>
+                <td class="text-center">7000</td>
+              </tr>
+
+              <tr class="text-center">
+                <td scope="col" class="text-left collection1">Total Amount</td>
+                <td scope="col" class="text-center">1500</td>
+                <td scope="col" class="text-center">14000</td>
+                <td scope="col" style="background-color: #173F62; color: #fff; font-weight:500;">15500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- ----------------------mobile view------------------- -->
+
+      <div class="panel-body table_border table_border1 today_table">
+        <div data-toggle="collapse" data-target="#demo1" class="accordion-toggle">
+          <div class="text-left collection today_left" colspan="12">
+            <p class="today_left ">
+              <img src="/images/push-pin.png" class="total_img" />
+              Today Collection
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </p>
+          </div>
+        </div>
+        <div class="table_container collapse" id="demo1">
+          <div class="card">
+            <div class="card-body">
+              <div class="collection_design">
+                <p>Payment Mode</p>
+                <p class="therpy_collect">Therapy Collection</p>
+              </div>
+              <div class="line"></div>
+              <div class="collection_design">
+                <p class="cash">Cash
+                  <i class="bi bi-currency-rupee" style="color: purple; font-size: 20px; "></i>
+                </p>
+                <p class="therpy_collect1">500</p>
+              </div>
+
+              <div class="collection_design">
+                <p class="cash">Card
+                  <i class="bi bi-credit-card" style="color: #F3B493; font-size: 20px;"></i>
+                </p>
+                <p></p>
+              </div>
+
+              <div class="collection_design">
+                <p class="cash">Gpay
+                  <i class="bi bi-google" style="color: 	#34A853; font-size: 20px;"></i>
+                </p>
+                <p></p>
+              </div>
+
+              <div class="collection_design">
+                <p class="cash">Phonepe
+                  <i class="bi bi-paypal" style="color: #6739B7; font-size: 20px;"></i>
+                </p>
+                <p class="therpy_collect1">1000</p>
+              </div>
+              <div class="line"></div>
+
+              <div class="collection_design">
+                <p class="total_amt">Total Amount</p>
+                <p class="total_collect">1500</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="todayCard">
+            <div>
+              <table class="table  table2 table-condensed">
+                <tbody class="accordian-body collapse" id="demo1">
+                  <tr>
+                    <th>Payment Mode</th>
+                    <th scope="col">Membership</th>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" class="text-left">
+                      <p class="cash">Cash
+                        <i class="bi bi-currency-rupee" style="color: purple; font-size: 20px; padding-left: 10px;"></i>
+                      </p>
+                    </th>
+                    <td class="text-center"></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" class="text-left">
+
+                      <p class="cash">Card
+                        <i class="bi bi-credit-card" style="color: #F3B493; font-size: 20px;padding-left: 10px;"></i>
+                      </p>
+                    </th>
+                    <td class="text-center">5000</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" class="text-left">
+                      <p class="cash">Gpay
+                        <i class="bi bi-google" style="color: 	#34A853; font-size: 20px;padding-left: 10px;"></i>
+                      </p>
+                    </th>
+                    <td class="text-center">0</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" class="text-left">
+                      <p class="cash">Phonepe
+                        <i class="bi bi-paypal" style="color: #6739B7; font-size: 20px;padding-left: 10px;"></i>
+                      </p>
+                    </th>
+                    <td class="text-center">6000</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="col" class="text-left collection1">Total Amount</td>
+                    <td scope="col" class="text-center">1500</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="todayCard">
+            <div>
+              <table class="table  table2 table-condensed">
+                <tbody class="accordian-body collapse" id="demo1">
+                  <tr>
+                    <th>Payment Mode</th>
+                    <th scope="col">Net Total</th>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" class="text-left">
+                      <p class="cash">Cash
+                        <i class="bi bi-currency-rupee" style="color: purple; font-size: 20px; padding-left: 10px;"></i>
+                      </p>
+                    </th>
+                    <td class="text-center">500</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" class="text-left">
+
+                      <p class="cash">Card
+                        <i class="bi bi-credit-card" style="color: #F3B493; font-size: 20px;padding-left: 10px;"></i>
+                      </p>
+                    </th>
+                    <td class="text-center">5000</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" class="text-left">
+                      <p class="cash">Gpay
+                        <i class="bi bi-google" style="color: 	#34A853; font-size: 20px;padding-left: 10px;"></i>
+                      </p>
+                    </th>
+                    <td class="text-center">0</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" class="text-left">
+                      <p class="cash">Phonepe
+                        <i class="bi bi-paypal" style="color: #6739B7; font-size: 20px;padding-left: 10px;"></i>
+                      </p>
+                    </th>
+                    <td class="text-center">7000</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="col" class="text-left collection1">Total Amount</td>
+                    <td scope="col" class="text-center">1500</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <div class="export-div">
+    <button class="export-btn"><i class="bi bi-file-earmark-excel"></i> Export to Excel</button>
+  </div>
+
+  <!-- table -->
+
+
+
+
+
+
+
+
+
+  <!-- block modal -->
+  <script>
+    function openModal() {
+      document.getElementById("appointmentModal").style.display = "block";
+      updateDate();
+    }
+
+    function closeModal() {
+      document.getElementById("appointmentModal").style.display = "none";
+    }
+
+    function updateDate() {
+      var currentDateElement = document.getElementById("currentDate");
+      var currentDate = new Date();
+      currentDateElement.innerHTML = currentDate.toDateString();
+    }
+
+    function changeDate(days) {
+      var currentDate = new Date(document.getElementById("currentDate").innerHTML);
+      currentDate.setDate(currentDate.getDate() + days);
+      document.getElementById("currentDate").innerHTML = currentDate.toDateString();
+    }
+
+    function selectTime(element) {
+      // Reset all time boxes
+      var timeBoxes = document.getElementsByClassName("time-box");
+      for (var i = 0; i < timeBoxes.length; i++) {
+        timeBoxes[i].classList.remove("selected-time");
+      }
+
+      // Set the selected time box
+      element.classList.add("selected-time");
+    }
+
+    // Close the modal if the user clicks outside of it
+    window.onclick = function (event) {
+      var modal = document.getElementById("appointmentModal");
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+  <!-- block modal end -->
+ 
+  <!-- hide n show button start-->
+
+  <script>
+    const menuButton = document.getElementById("menu-button");
+    const menuItems = document.getElementById("menu-items");
+
+    menuButton.addEventListener("click", function () {
+      menuItems.classList.toggle("show");
+    });
+  </script>
+
+  <!-- hide n show button end-->
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>

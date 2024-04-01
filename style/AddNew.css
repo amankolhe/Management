@@ -1,0 +1,1186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.row>*{
+    padding-left: 0 !important;
+}
+
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.form-group label {
+    padding: 0;
+    margin-bottom: 3px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    padding-left: 5px;
+}
+
+
+.form-group h5 {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: end;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-right: 30px;
+    color: #000080;
+}
+
+.custom-dropdown {
+    border: 1.2px solid #dee2e6;
+    border-radius: 8px;
+}
+
+.custom-Date {
+    height: 41px;
+    padding: 5px;
+    border: 1.2px solid #dee2e6;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+
+.multiple-form {
+    width: 320px;
+    margin-right: 20px;
+    border: none !important;
+}
+
+.multiple-form option {
+    font-size: 15px;
+}
+
+.multiple-form a {
+    text-align: right;
+    font-size: 15px;
+    color: #173F62 !important;
+    padding-top: 20px;
+    padding-left: 220px;
+
+}
+
+.payment-div-section {
+    width: 100%;
+    padding: 16px;
+    height: 212px;
+    border-radius: 10px;
+    border: 1.3px solid #c8c8c8;
+    margin-top: 15px;
+}
+
+.payment-div-section h5 {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding-bottom: 3px;
+}
+
+.payment-div-section h4 {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.main-right-section {
+    width: 40%;
+    padding: 14px;
+    height: 230px;
+    border-radius: 10px;
+    border: 1.3px solid #c8c8c8;
+}
+
+.main-right-section h6 {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+
+.selected-plan-div {
+    border: 1px solid #173F62;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.selected-sub-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.selected-sub-div h5 {
+    font-size: 14px;
+    margin-bottom: 2px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.selected-sub-div h6 {
+    font-size: 14px;
+    margin-bottom: 2px;
+    text-align: center;
+    color: #173F62;
+
+
+}
+
+.Membarship-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8px;
+}
+
+.Membarship-btn h6 {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #173F62;
+    cursor: pointer;
+    padding: 10px;
+
+
+}
+
+.cheakbox-section {
+    padding: 10px 25px;
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+.checkbox-wrapper-1 *,
+.checkbox-wrapper-1 ::after,
+.checkbox-wrapper-1 ::before {
+    box-sizing: border-box;
+}
+
+.checkbox-wrapper-1 label {
+    font-size: 14px;
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted {
+    margin: 0;
+    width: 0;
+    height: 0;
+    display: inline;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted+label:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    height: 1.15em;
+    width: 1.15em;
+    margin-right: 0.6em;
+    color: rgba(0, 0, 0, 0.275);
+    border: solid 0.06em;
+    box-shadow: 0 0 0.04em, 0 0.06em 0.16em -0.03em inset, 0 0 0 0.07em transparent inset;
+    border-radius: 0.2em;
+    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve" fill="white" viewBox="0 0 9 9"><rect x="0" y="4.3" transform="matrix(-0.707 -0.7072 0.7072 -0.707 0.5891 10.4702)" width="4.3" height="1.6" /><rect x="2.2" y="2.9" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 12.1877 2.9833)" width="6.1" height="1.7" /></svg>') no-repeat center, white;
+    background-size: 0;
+    transform: translate3d(0, 0, 0);
+    transition: color 0.1s, border 0.1s, background 0.15s, box-shadow 0.1s;
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted:enabled:active+label:before,
+.checkbox-wrapper-1 [type=checkbox].substituted:enabled+label:active:before {
+    box-shadow: 0 0 0.04em, 0 0.06em 0.16em -0.03em transparent inset, 0 0 0 0.07em rgba(0, 0, 0, 0.1) inset;
+    background-color: #f0f0f0;
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted:checked+label:before {
+    background-color: #173F62;
+    background-size: 0.75em;
+    color: rgba(0, 0, 0, 0.075);
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted:checked:enabled:active+label:before,
+.checkbox-wrapper-1 [type=checkbox].substituted:checked:enabled+label:active:before {
+    background-color: #173F62;
+    color: rgba(0, 0, 0, 0.275);
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted:focus+label:before {
+    box-shadow: 0 0 0.04em, 0 0.06em 0.16em -0.03em transparent inset, 0 0 0 0.07em rgba(0, 0, 0, 0.1) inset, 0 0 0 3.3px rgba(65, 159, 255, 0.55), 0 0 0 5px rgba(65, 159, 255, 0.3);
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted:focus:active+label:before,
+.checkbox-wrapper-1 [type=checkbox].substituted:focus+label:active:before {
+    box-shadow: 0 0 0.04em, 0 0.06em 0.16em -0.03em transparent inset, 0 0 0 0.07em rgba(0, 0, 0, 0.1) inset, 0 0 0 3.3px rgba(65, 159, 255, 0.55), 0 0 0 5px rgba(65, 159, 255, 0.3);
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted:disabled+label:before {
+    opacity: 0.5;
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted.dark+label:before {
+    color: rgba(255, 255, 255, 0.275);
+    background-color: #222;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve" fill="rgba(34, 34, 34, 0.999)" viewBox="0 0 9 9"><rect x="0" y="4.3" transform="matrix(-0.707 -0.7072 0.7072 -0.707 0.5891 10.4702)" width="4.3" height="1.6" /><rect x="2.2" y="2.9" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 12.1877 2.9833)" width="6.1" height="1.7" /></svg>');
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted.dark:enabled:active+label:before,
+.checkbox-wrapper-1 [type=checkbox].substituted.dark:enabled+label:active:before {
+    background-color: #444;
+    box-shadow: 0 0 0.04em, 0 0.06em 0.16em -0.03em transparent inset, 0 0 0 0.07em rgba(255, 255, 255, 0.1) inset;
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted.dark:checked+label:before {
+    background-color: #a97035;
+    color: rgba(255, 255, 255, 0.075);
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted.dark:checked:enabled:active+label:before,
+.checkbox-wrapper-1 [type=checkbox].substituted.dark:checked:enabled+label:active:before {
+    background-color: #c68035;
+    color: rgba(0, 0, 0, 0.275);
+}
+
+
+
+
+.tab-body-section {
+    width: 100%;
+    padding: 17px;
+    border-radius: 5px;
+    border: 1.3px solid #c8c8c8;
+
+}
+
+.nav-tabs {
+    position: relative;
+    border: none;
+}
+
+.nav-link {
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;
+}
+
+
+.tab-container {
+    padding: 10px 30px 10px 30px;
+
+}
+
+.table-div h6 {
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    color: #173F62;
+    padding: 15px;
+    text-align: end;
+    cursor: pointer;
+
+
+}
+
+.other-plan-section {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.table {
+    box-shadow: none;
+    height: 50px;
+}
+
+.div-card {
+    border: 1.5px solid #c8c8c8;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 10px;
+
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+
+.div-card h5 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    margin-bottom: 2px;
+
+}
+
+.div-card h6 {
+    font-size: 15px;
+    letter-spacing: 0.4px;
+
+
+}
+
+.select-btn {
+    background-color: #173F62;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+
+
+
+/* formdesign */
+
+.form-frist-row-section {
+    display: flex;
+    flex-direction: row;
+    display: 100%;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.form-group-section label {
+
+    margin-bottom: 2px;
+    font-size: 13.3px;
+    letter-spacing: 0.4px;
+    /* padding-left: 5px; */
+    color: #000;
+
+}
+
+
+.form-control {
+    width: 100%;
+    font-size: 13.3px;
+    letter-spacing: 0.4px;
+    /* margin-right: 20px; */
+    border: 1.3px solid #ced4da;
+}
+
+.form-control::placeholder {
+    font-size: 13.3px;
+}
+
+.form-select::placeholder {
+    font-size: 13.3px;
+}
+
+.form-select {
+    font-size: 13.3px;
+    border: 1.3px solid #ced4da;
+
+}
+
+.form-select option {
+    font-size: 14px;
+}
+
+.form-check-label {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    margin: 0;
+}
+
+.form-check-input:checked {
+    background-color: #173F62;
+    border-color: #173F62;
+
+}
+
+.form-check-input1:checked {
+    background-color: #173F62;
+    border-color: #173F62;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.form-check-input1[type="checkbox"] {
+    border-radius: 1.25em;
+}
+
+.active-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.active-status span {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    color: #0F9D58;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    width: 100%;
+    padding-left: 5px;
+}
+
+
+.btn-section {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+
+
+.buttons {
+    display: block;
+    width: 100%;
+    height: 37px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: #173F62;
+    color: #ffff;
+    align-items: flex-end;
+    margin-top: 27px;
+
+}
+
+.therapy-summary-section {
+    width: 27%;
+    padding: 5px 0 0 13px;
+    border-radius: 5px;
+    border: 1.3px solid #c8c8c8;
+    margin-left: 24px;
+    background-color: #f2f0f0;
+}
+
+.therapy-info-card {
+    border: 1px solid lightgrey;
+    padding: 12px;
+    width: 95%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+
+.therapy-info-card h5 {
+    font-size: 15px;
+    letter-spacing: 0.4px;
+}
+
+.therapy-info-card h6 {
+    font-size: 15px;
+    letter-spacing: 0.4px;
+}
+
+.btn-selected-card {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-align: end;
+    color: #173F62;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.line1 {
+    border: 1.3px solid #dee2e6;
+    
+    margin-bottom: 7px;
+}
+
+.payment-btn-section {
+    display: flex;
+    flex-direction: row;
+    margin: 12px 12px 0 12px;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+
+.pay-btn {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    color: #ffff;
+    border: none;
+    outline: none;
+    padding: 6px 17px;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1.3px solid #c8c8c8;
+}
+
+.payment-section {
+    margin-top: 20px;
+    border: 1.3px solid #173F62;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.Renew-btn-div {
+    display: flex;
+    justify-content: end;
+    padding-top: 15px;
+
+}
+
+.Renew-btn-div a {
+    text-decoration: none;
+
+}
+
+.renew-btn {
+    border: none;
+    outline: none;
+    background-color: #173F62;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 13px;
+    letter-spacing: 0.4px;
+    border-radius: 3px;
+}
+
+.row-line {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 14px 0;
+    border: 1.3px solid #c8c8c8;
+    border-radius: 8px;
+    height: 160px;
+    padding: 0px;
+}
+
+
+.row-home {
+    position: relative;
+    cursor: pointer;
+}
+
+.modal-dailog-renew {
+    width: 100%;
+    height: 90%;
+
+}
+
+.modal-contnt-renew {
+    padding: 20px;
+    scroll-behavior: unset;
+    height: auto; 
+}
+
+/* .modal{
+    overflow-y: unset !important;
+    overflow-x: unset !important;
+    --bs-modal-margin:5px !important;
+} */
+
+.renewal-membership-client-details {
+    display: flex;
+    gap: 25px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+
+.renewal-membership-client-details h6 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    margin: 0;
+
+
+}
+
+.btn-width {
+    /* width: 15%; */
+    padding: 6px 17px;
+    letter-spacing: 0.4px;
+    position: relative;
+    /* bottom: 77px; */
+}
+
+.btn-width1 {
+    /* width: 15%; */
+    padding: 6px 17px;
+    letter-spacing: 0.4px;
+
+}
+
+.remark {
+    width: 45%;
+    height: 51px;
+}
+
+.number-icon {
+    position: absolute;
+    top: 43px;
+    margin: auto;
+    width: 60px;
+    left: 28px;
+}
+
+.number-icon1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: end;
+}
+
+.time {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.close-clr {
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: #FF0000 !important;
+    border-color: #FF0000 !important;
+    font-size: 28px !important;
+}
+
+.remark1 {
+    width: 27rem;
+    height: 45px
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.details {
+    display: flex;
+    gap: 5px;
+    border: 1px solid #e0d9d9;
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    
+    margin-left: 15px;
+}
+.payment_details{
+    font-weight: 600;
+}
+.payment-background {
+    background: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%) !important;
+    border: 0;
+    border-radius: 8px;
+    padding: 21px 25px 10px;
+}
+
+.payment-position {
+    position: absolute;
+    top: -30px;
+}
+
+.remark-details {
+    width: 50%;
+    height: 51px;
+}
+
+.btn-width-details {
+    /* width: 15%; */
+    padding: 6px 17px;
+    letter-spacing: 0.4px;
+    position: relative;
+    /* bottom: 60px; */
+}
+
+.btn-width-details1 {
+    /* width: 15%; */
+    padding: 6px 17px;
+    letter-spacing: 0.4px;
+    position: relative;
+    /* bottom: 77px; */
+}
+
+.reset-clr {
+    background: #c3b8a5;
+    border-color: #c3b8a5;
+}
+
+.reset-clr:hover {
+    background: #c3b8a5;
+    border-color: #c3b8a5;
+}
+
+.modal .close {
+    outline: none;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    opacity: 1;
+    width: 50px;
+    height: 48px;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+
+.available {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    color: green;
+    margin: 0 11px;
+}
+
+.number-icon2 {
+    position: absolute;
+    top: 0;
+    bottom: -22px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: end;
+}
+
+.img-clr {
+    height: 18px;
+}
+
+.form-bg {
+
+    background-color: #b8afe1;
+    width: 50%;
+    padding: 0 4px;
+    border-radius: 8px;
+}
+
+.payment-position1 {
+    position: absolute;
+    top: 7px;
+}
+
+.details1 {
+    position: relative;
+    top: 7px;
+    border: 1px solid #e0d9d9;
+    background-color: #fff;
+    padding: 3px 15px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    margin: 7px 107px -9px 32px; 
+
+    
+}
+
+.form-check .form-check-input2 {
+    float: left;
+    margin-left: -1.5em;
+    
+}
+
+.modal-lg2 {
+    --bs-modal-width: 1000px;
+
+}
+
+.select1 {
+    padding: 0 1px;
+}
+
+.section-padding {
+    padding: 0 10px;
+}
+
+
+
+.Renew-btn1-div {
+    display: flex;
+    justify-content: end;
+    padding-top: 15px;
+
+}
+
+.Renew-btn1-div a {
+    text-decoration: none;
+
+}
+
+.renew-btn1 {   
+    background-color: #173F62;   
+    padding: 0px 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center ;
+    align-items: center; 
+    width: 20px;  
+    height: 20px;
+}
+
+.renew-btn1 i{
+    color: #fff;
+    font-size: 13px;
+}
+
+.visit {
+    font-size: 20px;
+    display: none;
+}
+
+.visit:hover {
+    display: block;
+}
+
+.modal-person {
+
+    --bs-modal-width: 722px !important;
+}
+
+
+
+.house {
+    width: 50px;
+    transition: 0.3s;
+}
+
+.house:hover,
+.house:active {
+    transform: scale(1.2);
+}
+
+.close-icon {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: -7px;
+}
+
+.form-check .renew-check {
+    float: left;
+    margin-left: -24px;
+    margin-top: 23px;
+}
+
+.renew-label {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    margin: 23px 0;
+}
+
+.new-label {
+    margin-left: 19px;
+}
+
+.tooltip .tooltip-clr {
+    background-color: red;
+}
+
+.tooltip:before {
+    width: 0;
+    height: 0;
+    content: "";
+    margin-bottom: 6px;
+}
+
+.tooltip:hover:before,
+.tooltip:hover:after {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, 0);
+}
+
+
+
+[data-tooltip-pos="down"]:before {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid red;
+    margin-top: 6px;
+}
+
+[data-tooltip-pos="down"]:after {
+    margin-top: 11px;
+}
+
+[data-tooltip-pos="down"]:hover:before,
+[data-tooltip-pos="down"]:hover:after {
+    transform: translate(-50%, 0);
+}
+
+.tab-section{
+    display: flex;
+}
+
+
+.body-section-width {
+    width: 73%;
+    padding: 10px;
+}
+
+.payment_id{
+    position: relative;
+    margin: 13px 0;
+}
+.modal-top-header{
+    border-bottom: unset !important;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+}
+.modal-line{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * .5);
+    background-color: var(--bs-modal-footer-bg);
+    border-top: unset !important;
+   
+}
+.butns-padding{
+    padding-right: 34px;
+}
+.new-page-border{
+    border: 1.3px solid #dee2e6;
+   margin: 0 5px;
+    border-radius: 8px;
+}
+
+.table_display{
+    display: flex; 
+}
+
+.reset-clr{
+    background-color: lightgrey !important;
+    border-color: lightgrey !important;
+}
+
+.bi-whatsapp{
+    color: green;
+}
+.btns-margin{
+      display: flex;
+      justify-content: end;
+      padding-top: 22px;
+}
+
+
+.vertical-line {
+    border: 1.3px solid #c8c8c8;
+    border-radius: 8px;
+    height: 171px;
+    margin: 20px 17px;
+    padding: 44px 0;
+  }
+
+.therapist-icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ban-icon{
+    color: red;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+
+.font-name{
+    display: flex;
+    justify-content: space-around;
+    transition: 0.3s;
+}
+.font-name:hover,
+.font-name:active {
+    transform: scale(1.2);
+}
+.font-name p{
+    font-size: 25px;
+   text-align: center;
+}
+
+.font-name-maria span{
+    font-size: 13px;
+    text-align: center;
+    line-height: 35px;
+}
+.font-name-maria img{
+    width: 35px;
+    height: 35px;
+}
+
+.available-clr{
+    color: green;
+    font-size: 13px;
+}
+.modal-therapist{
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media (max-width:576px){
+   
+    .details {
+        /* width: 90% !important; */
+        margin: -22px 10px;
+        font-size: 17px;
+    }
+    
+}
+
+@media (max-width:768px){
+    .tab-section{
+        display: block;
+    }
+    .form-select{
+        margin: 0;
+        width: 100%;
+    }
+    .therapy-summary-section {
+        width: 100%;
+        padding: 13px 0 13px 26px;
+        border-radius: 5px;
+        border: 1.3px solid #c8c8c8;
+        margin: 10px 0;
+        background-color: #f2f0f0;
+    }
+    .body-section-width {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .btns-padding{
+        padding: 10px 0;
+    }
+    .modal-contnt-renew {
+        height: auto;
+    }
+    .form-check .form-check-input {
+        float: left;
+        margin-left: -21px !important;
+    }
+    .details {
+        /* width: 60%; */
+        margin: -0px 10px !important;
+        font-size: 14px !important;
+    }
+    .details1 {
+        font-size: 15px !important;
+        margin: 6px 30px -9px 23px !important;
+    }
+    .table-scroll {
+        overflow-x: scroll;
+        white-space: nowrap;
+        flex-wrap: nowrap !important;
+    
+    }
+    .btns-margin {
+        display: block;
+        justify-content: end;
+        padding-top: 22px;
+    }
+    .vertical-line {
+        margin: 20px 0 !important;
+    }
+    .font-name p {
+        font-size: 13px;
+       
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    
+    .body-section-width {
+        width: 100%;
+        padding: 10px;
+    }
+    .therapy-summary-section {
+        width: 40%;
+        padding: 13px 0 13px 26px;
+        border-radius: 5px;
+        border: 1.3px solid #c8c8c8;
+        margin-left: 20px ;
+        background-color: #f2f0f0;
+    }
+    .table_display{
+        display: flex;
+        justify-content: space-around;
+        font-size: 19px;
+        margin: 0 -10px;
+    }
+    
+    .modal{
+        --bs-modal-margin: unset !important;
+    }
+}
+
+@media (max-width:1200px){
+    .form-select{
+        margin: 0;
+        width: 100% !important;
+    }
+    
+    .btns-padding{
+        padding: 10px 0;
+    }
+
+    .details {
+        margin: -4px 2px -9px 32px;
+       
+    }
+    .details1 { 
+        font-size: 17px;
+        padding: 3px 15px;
+        margin: 5px 30px -9px 23px;  
+    }
+}

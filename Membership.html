@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Membership</title>
+  <link rel="stylesheet" href="/style/common.css">
+  </link>
+  <link rel="stylesheet" href="/style/Index.css">
+  </link>
+  <link rel="stylesheet" href="/style/Membership.css">
+  </link>
+
+  <!-- Boostrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Boostrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+  <section>
+    <button id="menu-button">
+      <i class="bi bi-clipboard-data" style="color: #ffff; font-size: 24px"></i>
+    </button>
+    <ul id="menu-items">
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Today Booking</label>
+        </div>
+        <li>23</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Total Booking</label>
+        </div>
+        <li>12Cr</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Today Collection</label>
+        </div>
+        <li>29k</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Total Collection</label>
+        </div>
+        <li>230k</li>
+      </div>
+    </ul>
+  </section>
+
+  <!-- Header Start -->
+  <header>
+    <div class="header_wrapper">
+      <div class="right-nav-side">
+        <div class="d-flex">
+          <i class="bi bi-list me-2" style="font-size: 28px; font-weight: bold;" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+          <div class="d-flex">
+            <img src="images/spa.png" class="img_width me-2" />
+            <h4 class="text_align">Miami Thai Spa</h4>
+          </div>
+        </div>
+        <div class="d-flex align-items-center icon_color">
+          <div class="person_font">
+            <i class="bi bi-person-plus-fill "></i>
+          </div>
+          <div class="icon_padding">
+            <i class="bi bi-arrows-fullscreen"></i>
+          </div>
+          <div class="login-credien">
+            <h5>Miami Thai Spa</h5>
+            <h6>Administrator</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+  <!-- Header end -->
+  <!-- Offcanvas Start -->
+
+  <div class="offcanvas bg_offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="/images/spa.png" width="32px"
+          class="me-2" />Miami Thai Spa</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="single_line"></div>
+      <div>
+        <a href="Index.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-house-add"></i>
+            <h6>Home</h6>
+          </div>
+        </a>
+        <div class="offcanvas-link">
+          <i class="bi bi-clock"></i>
+          <h6>Planner</h6>
+        </div>
+        <a href="Search_client.html">
+        <div class="offcanvas-link">
+          <i class="bi bi-person"></i>
+          <h6>Search Client</h6>
+        </div>
+      </a>
+
+        <div class="offcanvas-link">
+          <i class="bi bi-people-fill"></i>
+          <h6>Membarship</h6>
+        </div>
+        <div class="offcanvas-link">
+          <i class="bi bi-house-add"></i>
+          <h6>Report</h6>
+        </div>
+        <a href="Dashboard.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-ui-checks-grid"></i>
+            <h6>Dashboard</h6>
+          </div>
+        </a>
+        <div class="offcanvas-link">
+          <i class="bi bi-clipboard-data"></i>
+          <h6>Record</h6>
+        </div>
+        <a href="Modify_Membership.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-currency-rupee"></i>
+            <h6>Modify Membership</h6>
+          </div>
+        </a>
+        <a href="Setting.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-gear"></i>
+            <h6>Setting</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- offcanvas end -->
+
+
+  <div class="ul_text top-menu-section">
+    <ul>
+      <li>
+        <a href="Index.html">
+        <div class="top-menu1">
+            <i class="bi bi-house-add"></i>
+            <h6>Home</h6>
+        </div>
+      </a>
+      </li>
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-clock"></i>
+          <h6>Planner</h6>
+        </div>
+      </li>
+      <li>
+        <a href="Search_client.html" style="text-decoration: none;">
+        <div class="top-menu1">
+          <i class="bi bi-person"></i>
+          <h6>Search Client</h6>
+        </div>
+      </a>
+      </li>
+      <li>
+        <a href="Membership.html">
+        <div class="top-menu">
+          <i class="bi bi-people-fill"></i>
+          <h6>Membership</h6>
+        </div>
+      </a>
+      </li>
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-clipboard-data"></i>
+          <h6>Report</h6>
+        </div>
+      </li>
+      <li>
+        <a href="Dashboard.html" style="text-decoration: none;">
+        <div class="top-menu1">
+          <i class="bi bi-ui-checks-grid"></i>
+          <h6>Dashboard</h6>
+        </div>
+      </a>
+      </li>
+
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-journal-text"></i>
+          <h6>Records</h6>
+        </div>
+      </li>
+
+      <li>
+        <a href="Modify_Membership.html">
+        <div class="top-menu1">
+          <i class="bi bi-currency-rupee"></i>
+          <h6>Modify Membership</h6>
+        </div>
+      </a>
+      </li>
+
+      <li>
+        <a href="Settings.html">
+        <div class="top-menu1">
+          <i class="bi bi-gear"></i>
+          <h6>Settings</h6>
+        </div>
+      </a>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="search_bgclr">
+    
+    <div class="d-flex justify-content-end">
+        <a href="Edit_Membership.html">
+        <button type="button" class="btn btn-success me-2">Edit Membership</button>
+      </a>
+      <a href="Renew_Membership.html">
+      <button type="button" class="btn btn-success btn-renew1">Renew</button>
+      </a>
+  </div>
+
+    <div class="row">
+      <div class="table_container">
+        <div class="table-responsive">
+          <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+            <thead>
+              <tr>
+                <th scope="col" class="text-center">SNo</th>
+                <th scope="col" class="text-center" style="width: 15%;">Mem Code</th>
+                <th scope="col" class="text-center">Plan Name </th>
+                <th scope="col" class="text-center">Total Mem Fees</th>
+                <th scope="col" class="text-center" style="width: 10%;">Date</th>
+                <th scope="col" class="text-center">Mem Total Benefit</th>
+                <th scope="col" class="text-center">Carry</th>
+                <th scope="col" class="text-center">Mem Balance</th>
+                <th scope="col" class="text-center">Mem Used</th>
+                <th scope="col" class="text-center">Charges Paid</th>
+                <th scope="col" class="text-center">Charges Balance</th>
+                <th scope="col" class="text-center">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom: 2px solid #c7c7c7;">
+                <td scope="row">1</td>
+                <td class="text-start">
+                  <p style="color:maroon;font-weight: 600;">M0200</p>
+                  Devang Rane<br>
+                  9359782448
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Plan Name</label>XPLAN-5500
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Total Mem Fees</label>5500
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">From Date</label>04 Apr 23 <br>
+
+                  <label class="tdlabel">To Date</label>04 Oct 23
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Mem Total Benefit</label>300
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Copy Forward</label>
+                </td>
+                <td class="text-center" style="background-color:rgb(255, 211, 98);">
+                  <label class="tdlabel">Mem Balance</label>180
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Mem Used</label>300
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Paid Charges</label>5500
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Balance Charges</label>0
+                </td>
+                <td align="center" style="height: 65px;">
+                  <p class="clsExpiredMember" style="color: #fff !important;background-color:green !important;
+                  border: 1px solid gray !important;padding: 15px;font-weight: 700;">
+                    Active </p>
+                </td>
+              </tr>
+              <tr class="clsSubtr">
+                <td colspan="15" class="px-5 nextedtd">
+                  <table class="table table-bordered clsSubTable">
+                    <thead>
+                      <tr class="text-center">
+                        <th scope="col"></th>
+                        <th scope="col">Apt Date</th>
+                        <th scope="col">Therapist</th>
+                        <th scope="col">Therapy</th>
+                        <th scope="col">Min</th>
+                        <th scope="col">Mem Used</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="text-center">
+                        <td scope="col">1</td>
+                        <td scope="col">
+                          <label class="tdlabel">Apt Date</label>04 Oct 2023</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapist</label>Shum</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapy</label>Deep Tissue Therapy </th>
+                        <td scope="col">
+                          <label class="tdlabel">Total Fee</label>1600</th>
+                        <td scope="col">
+                          <label class="tdlabel">Mem Used</label>50</th>
+                      </tr>
+
+                      <tr class="text-center">
+                        <td scope="col">2</td>
+                        <td scope="col">
+                          <label class="tdlabel">Apt Date</label>04 Oct 2023</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapist</label>Nuie</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapy</label>Swedish Therapy </th>
+                        <td scope="col">
+                          <label class="tdlabel">Total Fee</label>1600</th>
+                        <td scope="col">
+                          <label class="tdlabel">Mem Used</label>50</th>
+                      </tr>
+
+                      <tr class="text-center">
+                        <td scope="col">3</td>
+                        <td scope="col">
+                          <label class="tdlabel">Apt Date</label>04 Oct 2023</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapist</label>Nuie</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapy</label>Swedish Therapy </th>
+                        <td scope="col">
+                          <label class="tdlabel">Total Fee</label>1600</th>
+                        <td scope="col">
+                          <label class="tdlabel">Mem Used</label>50</th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <tr style="border-bottom: 2px solid #c7c7c7;">
+                <td scope="row">
+                  <button type="button" class="btn btn-success bi bi-plus plus-size"
+                  onclick="toggleVisibility()">
+                 </button>
+                </td>
+                
+                <td class="text-start" >
+                  <p style="color:maroon;font-weight: 600;">M0200</p>
+                  Devang Rane<br>
+                  9359782448
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Plan Name</label>XPLAN-5500
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Total Mem Fees</label>5500
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">From Date</label>04 Apr 23 <br>
+
+                  <label class="tdlabel">To Date</label>04 Oct 23
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Mem Total Benefit</label>300
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Copy Forward</label>
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Mem Balance</label>No Balance
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Mem Used</label>300
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Paid Charges</label>5500
+                </td>
+                <td class="text-center">
+                  <label class="tdlabel">Balance Charges</label>0
+                </td>
+                <td align="center" style="height: 65px;">
+                  <p class="clsExpiredMember" style="color: gray !important;background-color:lightgray !important;
+                  border: 1px solid gray !important;padding: 15px;font-weight: 700;">
+                    Expired
+                  </p>
+                </td>
+              </tr>
+              <tr class="clsSubtr" id="myParagraph">
+                <td colspan="15" class="px-5 nextedtd">
+                  <table class="table table-bordered clsSubTable" >
+                    <thead>
+                      <tr class="text-center">
+                        <td scope="col"></td>
+                        <th scope="col">Apt Date</th>
+                        <th scope="col">Therapist</th>
+                        <th scope="col">Therapy</th>
+                        <th scope="col">Min</th>
+                        <th scope="col">Mem Used</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="text-center">
+                        <td scope="col">1</td>
+                        <td scope="col">
+                          <label class="tdlabel">Apt Date</label>04 Oct 2023</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapist</label>Shum</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapy</label>Deep Tissue Therapy </th>
+                        <td scope="col">
+                          <label class="tdlabel">Total Fee</label>1600</th>
+                        <td scope="col">
+                          <label class="tdlabel">Mem Used</label>50</th>
+                      </tr>
+
+                      <tr class="text-center">
+                        <td scope="col">2</td>
+                        <td scope="col">
+                          <label class="tdlabel">Apt Date</label>04 Oct 2023</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapist</label>Nuie</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapy</label>Swedish Therapy </th>
+                        <td scope="col">
+                          <label class="tdlabel">Total Fee</label>1600</th>
+                        <td scope="col">
+                          <label class="tdlabel">Mem Used</label>50</th>
+                      </tr>
+
+                      <tr class="text-center">
+                        <td scope="col">3</td>
+                        <td scope="col">
+                          <label class="tdlabel">Apt Date</label>04 Oct 2023</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapist</label>Nuie</th>
+                        <td scope="col">
+                          <label class="tdlabel">Therapy</label>Swedish Therapy </th>
+                        <td scope="col">
+                          <label class="tdlabel">Total Fee</label>1600</th>
+                        <td scope="col">
+                          <label class="tdlabel">Mem Used</label>50</th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <div class="export-div">
+    <button class="export-btn"><i class="bi bi-file-earmark-excel"></i> Export to Excel</button>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script>
+    const menuButton = document.getElementById("menu-button");
+    const menuItems = document.getElementById("menu-items");
+
+    menuButton.addEventListener("click", function () {
+      menuItems.classList.toggle("show");
+    });
+  </script>
+
+<!-- table hide n show butn -->
+  <script>
+ 
+      var paragraph = document.getElementById('myParagraph');
+      paragraph.classList.toggle('hidden');
+
+
+    function toggleVisibility() {
+      var paragraph = document.getElementById('myParagraph');
+      paragraph.classList.toggle('hidden');
+    }
+  </script>
+
+
+</body>
+</html>

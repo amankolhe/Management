@@ -1,0 +1,3737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Setting</title>
+  <link rel="stylesheet" href="/style/common.css">
+  </link>
+  <link rel="stylesheet" href="/style/Index.css">
+  </link>
+  <link rel="stylesheet" href="/style/Settings.css">
+  </link>
+  <link rel="stylesheet" href="/style/Feedback_mobileview.css">
+  </link>
+
+  <!-- Boostrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Boostrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <section>
+    <button id="menu-button">
+      <i class="bi bi-clipboard-data" style="color: #ffff; font-size: 24px"></i>
+    </button>
+    <ul id="menu-items">
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Today Booking</label>
+        </div>
+        <li>23</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Total Booking</label>
+        </div>
+        <li>12Cr</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Today Collection</label>
+        </div>
+        <li>29k</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Total Collection</label>
+        </div>
+        <li>230k</li>
+      </div>
+    </ul>
+  </section>
+
+  <!-- Header Start -->
+  <header>
+    <div class="header_wrapper">
+      <div class="right-nav-side">
+        <div class="d-flex">
+          <i class="bi bi-list me-2" style="font-size: 28px; font-weight: bold;" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+          <div class="d-flex">
+            <img src="images/spa.png" class="img_width me-2" />
+            <h4 class="text_align">Miami Thai Spa</h4>
+          </div>
+        </div>
+        <div class="d-flex align-items-center icon_color">
+          <div class="person_font">
+            <i class="bi bi-person-plus-fill "></i>
+          </div>
+          <div class="icon_padding">
+            <i class="bi bi-arrows-fullscreen"></i>
+          </div>
+          <div class="login-credien">
+            <h5>Miami Thai Spa</h5>
+            <h6>Administrator</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+  <!-- Header end -->
+  <!-- Offcanvas Start -->
+
+  <div class="offcanvas bg_offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="/images/spa.png" width="32px"
+          class="me-2" />Miami Thai Spa</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="single_line"></div>
+      <div>
+        <a href="Index.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-house-add"></i>
+            <h6>Home</h6>
+          </div>
+        </a>
+        <div class="offcanvas-link">
+          <i class="bi bi-clock"></i>
+          <h6>Planner</h6>
+        </div>
+        <a href="Search_client.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-person"></i>
+            <h6>Search Client</h6>
+          </div>
+        </a>
+
+        <a href="Membership.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-people-fill"></i>
+            <h6>Membarship</h6>
+          </div>
+        </a>
+
+        <div class="offcanvas-link">
+          <i class="bi bi-house-add"></i>
+          <h6>Report</h6>
+        </div>
+        <a href="Dashboard.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-ui-checks-grid"></i>
+            <h6>Dashboard</h6>
+          </div>
+        </a>
+        <div class="offcanvas-link">
+          <i class="bi bi-clipboard-data"></i>
+          <h6>Record</h6>
+        </div>
+        <a href="Modify_Membership.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-currency-rupee"></i>
+            <h6>Modify Membership</h6>
+          </div>
+        </a>
+        <a href="Settings.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-gear"></i>
+            <h6>Setting</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- offcanvas end -->
+
+
+  <div class="ul_text top-menu-section">
+    <ul>
+      <li>
+        <a href="Index.html">
+          <div class="top-menu1">
+            <i class="bi bi-house-add"></i>
+            <h6>Home</h6>
+          </div>
+        </a>
+      </li>
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-clock"></i>
+          <h6>Planner</h6>
+        </div>
+      </li>
+      <li>
+        <a href="Search_client.html">
+          <div class="top-menu1">
+            <i class="bi bi-person"></i>
+            <h6>Search Client</h6>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="Membership.html">
+          <div class="top-menu1">
+            <i class="bi bi-people-fill"></i>
+            <h6>Membership</h6>
+          </div>
+        </a>
+      </li>
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-clipboard-data"></i>
+          <h6>Report</h6>
+        </div>
+      </li>
+      <li>
+        <a href="Dashboard.html">
+          <div class="top-menu1">
+            <i class="bi bi-ui-checks-grid"></i>
+            <h6>Dashboard</h6>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-journal-text"></i>
+          <h6>Records</h6>
+        </div>
+      </li>
+
+      <li>
+        <a href="Modify_Membership.html">
+          <div class="top-menu1">
+            <i class="bi bi-currency-rupee"></i>
+            <h6>Modify Membership</h6>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="Settings.html">
+          <div class="top-menu">
+            <i class="bi bi-gear"></i>
+            <h6>Settings</h6>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+
+
+  <div class="container-fluid mobile-view-display">
+    <div class="row">
+      <div class="col-md-2 clr-right">
+        <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link nav-link-tab active" id="registration-tab" data-toggle="tab" href="#registration"
+              role="tab" aria-controls="registration" aria-selected="true">Registration</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link nav-link-tab " id="home-tab" data-toggle="tab" href="#home" role="tab"
+              aria-controls="home" aria-selected="true">Therapist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-tab" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+              aria-controls="profile" aria-selected="false">Therapies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-tab" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+              aria-controls="contact" aria-selected="false">Payment Mode</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-tab" id="list-tab" data-toggle="tab" href="#list" role="tab"
+              aria-controls="list" aria-selected="false">Dealers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-tab" id="plan-tab" data-toggle="tab" href="#plan" role="tab"
+              aria-controls="plan" aria-selected="false">Plan Master</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link nav-link-tab" id="rotation-tab" data-toggle="tab" href="#rotation" role="tab"
+              aria-controls="rotation" aria-selected="false">Rotation</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link nav-link-tab" id="feedback-tab" data-toggle="tab" href="#feedback" role="tab"
+              aria-controls="feedback" aria-selected="false">Feedback</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="col-md-10 back-clr">
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="registration" role="tabpanel" aria-labelledby="registration-tab">
+            <div>
+              <p class="Reg">Registration</p>
+            </div>
+
+            <div class="filter_section">
+              <div class="row ">
+                <div class="px-4">
+                  <img src="/images/reg.png">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="mb-2">
+                      <label class="form-label">Office Name</label>
+                      <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                        data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                        value="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="px-4">
+                  <h5 class="section_staff mt-2">Basic Details</h5>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">FIRST NAME</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">MIDDLE NAME</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">LAST NAME</label>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">DATE OF BIRTH</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">GENDER</label>
+                        <select class="form-select" aria-label="select">
+                          <option value="1">Male</option>
+                          <option value="2">Female</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">REG.NO</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">JOINING DATE</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input type="date" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">END DATE</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input type="date" class="form-control">
+                      </div>
+                    </div>
+
+
+
+                    <h5 class="section_staff mt-3">Contact Details</h5>
+                    <div class="row">
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">MOBILE NO.</label>
+                          <span style="color: #ca1f2b;">*</span>
+                          <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">ALTERNATIVE MOBILE NO.</label>
+                          <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">EMAIL ID</label>
+                          <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                        </div>
+                      </div>
+                    </div>
+
+                    <h5 class="section_staff mt-3">ADDRESS</h5>
+                    <div class="row">
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">ADDRESS</label>
+                          <span style="color: #ca1f2b;">*</span>
+                          <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">AREA.</label>
+                          <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">CITY</label>
+                          <span style="color: #ca1f2b;">*</span>
+                          <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">STATE</label>
+                          <span style="color: #ca1f2b;">*</span>
+                          <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">COUNTRY</label>
+                          <select class="form-select" aria-label="select">
+                            <option value="1">India</option>
+                            <option value="2"></option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">PINCODE</label>
+                          <span style="color: #ca1f2b;">*</span>
+                          <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                        </div>
+                      </div>
+                    </div>
+
+                    <h5 class="section_staff mt-3">LOGIN DETAILS</h5>
+                    <div class="row">
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">LOGIN ID</label>
+                          <span style="color: #ca1f2b;">*</span>
+                          <input class="form-control input-validation-error" type="text" id="txtLocationName1"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="mb-2">
+                          <label class="form-label">PASSWORD</label>
+                          <span style="color: #ca1f2b;">*</span>
+                          <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                          <i class="bi bi-eye-fill eye-btn"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class=" btn-margin">
+                      <div class="px-1">
+                        <button type="button" class="btn btn-secondary sub-btn">Submit</button>
+                      </div>
+                      <div class="px-1">
+                        <a href="">
+                          <button type="button" class="btn btn-outline-danger cancel-btn">Cancel</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ---------------------Therapist page-------------------------- -->
+          <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="filter_section">
+              <div class="row ">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-">
+                    <label class="form-label">THERAPIST NAME</label>
+                    <input class="form-control" />
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-2 ">
+                    <label class="form-label">IS-ACTIVE</label>
+                    <select class="form-select" aria-label="select">
+                      <option selected>Active</option>
+                      <option>In-Active</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-2">
+                    <div class="search_btn_margin">
+                      <button type="button" class="btn btn-success ">Search</button>
+                      <a href="Settings_addnewpage.html">
+                        <button type="button" class="btn btn-secondary">+ Add New</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="table_container">
+                <div class="table-responsive">
+                  <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">SNo</th>
+                        <th scope="col" class="text-center">Therapist</th>
+                        <th scope="col" class="text-center">Mobile No.</th>
+                        <th scope="col" class="text-center">User Role </th>
+                        <th scope="col" class="text-center">Joining Date</th>
+                        <th scope="col" class="text-center">Status</th>
+                        <th scope="col" class="text-center">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- mobile view -->
+                      <tr class="border_table_mobileview">
+                        <td scope="row" class="text-center">1</td>
+                        <td class="text-center">
+                          Doie
+                        </td>
+                        <td class="text-center">
+                          9967912940
+                        </td>
+                        <td class="text-center">
+                          <label class="tdlabel">User Role</label>Therapist
+                        </td>
+                        <td class="text-center">
+                          <label class="tdlabel">Joining Date</label>2 Dec 2023
+                        </td>
+                        <td class="text-center">
+                          <label class="tdlabel">Status</label>Active
+                        </td>
+
+                        </td>
+
+
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+
+                          <div class=" action_btn mt-3">
+                            <div class="delete-width">
+                              <button type="button" class="btn btn-light me-3">
+                                <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                <span class="px-1">Renew</span></button>
+                            </div>
+                            <div class="delete-width">
+                              <button type="button" class="btn btn-success">
+                                <i class="bi bi-pencil-square"></i>
+                                <span class="px-1">Edit</span></button>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">2</td>
+                        <td class="text-center">
+                          Doie
+                        </td>
+                        <td class="text-center">
+                          <label class="tdlabel">Mobile No</label>9967912940
+                        </td>
+                        <td class="text-center">
+                          Therapist
+                        </td>
+                        <td class="text-center">
+                          2 Dec 2023
+                        </td>
+                        <td class="text-center">
+                          Active
+                        </td>
+
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">3</td>
+                        <td class="text-center">
+                          Doie
+                        </td>
+                        <td class="text-center">
+                          9967912940
+                        </td>
+                        <td class="text-center">
+                          Therapist
+                        </td>
+                        <td class="text-center">
+                          2 Dec 2023
+                        </td>
+                        <td class="text-center">
+                          Active
+                        </td>
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ------------------------------------Therapies page close--------------------------------- -->
+
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="filter_section">
+              <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-">
+                    <label class="form-label">THERIPY NAME</label>
+                    <input class="form-control" />
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-2 ">
+                    <label class="form-label">IS-ACTIVE</label>
+                    <select class="form-select" aria-label="select">
+                      <option selected>Active</option>
+                      <option>In-Active</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-2">
+                    <div class="search_btn_margin">
+                      <button type="button" class="btn btn-success ">Search</button>
+                      <a href="Settings_Therapies_AddPage.html">
+                        <button type="button" class="btn btn-secondary">+ Add New</button>
+                      </a>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="table_container">
+                <div class="table-responsive">
+                  <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                    <thead>
+                      <tr>
+                        <th scope="col">SNo</th>
+                        <th scope="col">Therapy Name</th>
+                        <th scope="col">Duration (M)</th>
+                        <th scope="col">Charges</th>
+                        <th scope="col">Default Incentive</th>
+                        <th scope="col">Membership Incentive</th>
+                        <th scope="col">Sort Order</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- mobile view -->
+                      <tr class="border_table_mobileview">
+                        <td scope="row" class="text-center">1</td>
+                        <td class="text-center">
+                          Aroma Thai Therapy
+                        </td>
+                        <td class="text-center">
+                          60
+                        </td>
+                        <td class="text-center">
+                          200
+                        </td>
+                        <td class="text-center">
+                          20
+                        </td>
+                        <td class="text-center">
+                          30
+                        </td>
+
+                        <td class="text-center">
+                          999
+                        </td>
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">1</td>
+                        <td class="text-center">
+                          Aroma Thai Therapy
+                        </td>
+                        <td class="text-center">
+                          60
+                        </td>
+                        <td class="text-center">
+                          200
+                        </td>
+                        <td class="text-center">
+                          20
+                        </td>
+                        <td class="text-center">
+                          30
+                        </td>
+                        <td class="text-center">
+                          999
+                        </td>
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">1</td>
+                        <td class="text-center">
+                          Aroma Thai Therapy
+                        </td>
+                        <td class="text-center">
+                          60
+                        </td>
+                        <td class="text-center">
+                          200
+                        </td>
+                        <td class="text-center">
+                          20
+                        </td>
+                        <td class="text-center">
+                          30
+                        </td>
+
+                        <td class="text-center">
+                          999
+                        </td>
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew
+                                  </a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- ------------------------------------paymentmode page open--------------------------------- -->
+
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="filter_section">
+              <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-">
+                    <label class="form-label">PAYMENT MODE</label>
+                    <select class="form-select" aria-label="select">
+                      <option>--</option>
+                      <option selected>Cash</option>
+                      <option>Card</option>
+                      <option>P-Pay</option>
+                      <option>G-pay</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-2 ">
+                    <label class="form-label">IS-ACTIVE</label>
+                    <select class="form-select" aria-label="select">
+                      <option selected>Active</option>
+                      <option>In-active</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-2">
+                    <div class="search_btn_margin">
+                      <a href="Settings_paymode.html">
+                        <button type="button" class="btn btn-secondary">+ Add New</button>
+                      </a>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="table_container">
+                <div class="table-responsive">
+                  <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                    <thead>
+                      <tr class="text-center">
+                        <th scope="col" style="width: 0%;">SNo</th>
+                        <th scope="col" style="width: 0%;">PAY MODE</th>
+                        <th scope="col" style="width: 0%;">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- mobile view -->
+                      <tr class="border_table_mobileview">
+                        <td scope="row" class="text-center">1</td>
+                        <td class="text-center">
+                          Complimentry
+                        </td>
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">2</td>
+                        <td class="text-center">
+                          Cash
+                        </td>
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">3</td>
+                        <td class="text-center">
+                          Card
+                        </td>
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew
+                                  </a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">4</td>
+                        <td class="text-center">
+                          G-pay
+                        </td>
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">5</td>
+                        <td class="text-center">
+                          P-pay
+                        </td>
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- --------------------------------------dealers page------------------ -->
+
+          <div class="tab-pane fade" id="list" role="tabpanel" aria-labelledby="list-tab">
+            <div class="filter_section">
+              <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-">
+                    <label class="form-label">CLIENT NAME</label>
+                    <input class="form-control input-validation-error" type="text" id="txtLocationName" data-val="true"
+                      data-val-required="The LocationName field is required." name="LocationName" value="">
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-2 ">
+                    <label class="form-label">IS-ACTIVE</label>
+                    <select class="form-select" aria-label="select">
+                      <option selected>Active</option>
+                      <option>Deactive</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-2">
+                    <div class="search_btn_margin">
+                      <button type="button" class="btn btn-success ">Search</button>
+                      <a href="Settings_dealer.html">
+                        <button type="button" class="btn btn-secondary">+ Add New</button>
+                      </a>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- mobile view-->
+            <div class="row">
+              <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                <thead>
+                  <tr class="text-center">
+                    <th scope="col">SNo</th>
+                    <th scope="col">DEALER NAME</th>
+                    <th scope="col">MOBILE</th>
+                    <th scope="col">STATUS</th>
+                    <th scope="col">ISDEFAULT</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                  <tr class="border_table_mobileview">
+                    <td scope="row" class="text-center">2</td>
+                    <td class="text-center">
+                      Dealer 1
+                    </td>
+                    <td class="text-center">
+                      9521387891
+                    </td>
+                    <td class="text-center">
+                      Active
+                    </td>
+                    <td class="text-center">
+                      20
+                    </td>
+
+
+                    <td>
+                      <div class="dropdown  action_btn_icon">
+                        <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                            aria-expanded="false"></i>
+                          <div class="dropdown-menu">
+                            <div>
+                              <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                Edit</a>
+                              </i>
+                            </div>
+                            <div>
+                              <a class="dropdown-item" href="#">
+                                <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                            </div>
+                          </div>
+                        </center>
+                      </div>
+                    </td>
+                  </tr>
+
+
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+          <!-- -------------------------------------plan Master-------------------------->
+          <div class="tab-pane fade" id="plan" role="tabpanel" aria-labelledby="plan-tab">
+            <div class="filter_section">
+              <div class="row ">
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                  <div class="mb-2 ">
+                    <label class="form-label">PLAN NAME</label>
+                    <select class="form-select" aria-label="select">
+                      <option selected>XPLAN-5500</option>
+                      <option>Plan1000</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                  <div class="mb-">
+                    <label class="form-label">PLAN TYPE</label>
+                    <select class="form-select" aria-label="select">
+                      <option selected>Minutes</option>
+                      <option>Amount</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                  <div class="mb-">
+                    <label class="form-label">IS-ACTIVE</label>
+                    <select class="form-select" aria-label="select">
+                      <option selected>Active</option>
+                      <option>Deactive</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                  <div class="mb-2">
+                    <div class="search_btn_margin d-flex">
+                      <button type="button" class="btn btn-success search-width me-1">Search</button>
+                      <a href="Settings_planmaster.html">
+                        <button type="button" class="btn btn-secondary search-width">+ Add New</button>
+                      </a>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- mobile view-->
+            <div class="row">
+              <div class="table_container">
+                <div class="table-responsive">
+                  <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                    <thead>
+                      <tr class="text-center">
+                        <th scope="col">SNo</th>
+                        <th scope="col">PLAN TYPE</th>
+                        <th scope="col">PLAN NAME</th>
+                        <th scope="col">PLAN FEES</th>
+                        <th scope="col">TOTAL MINUTES</th>
+                        <th scope="col">VALIDITY(IN MONTHS)</th>
+                        <th scope="col">ACTION</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- mobile view -->
+                      <tr class="border_table_mobileview">
+                        <td scope="row" class="text-center">1</td>
+                        <td class="text-center">
+                          Minutes
+                        </td>
+                        <td class="text-center">
+                          XPLAN-5500
+                        </td>
+                        <td class="text-center">
+                          2200
+                        </td>
+                        <td class="text-center">
+                          20
+                        </td>
+                        <td class="text-center">
+                          6
+                        </td>
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">2</td>
+                        <td class="text-center">
+                          Minutes
+                        </td>
+                        <td class="text-center">
+                          XPLAN-5500
+                        </td>
+                        <td class="text-center">
+                          2200
+                        </td>
+                        <td class="text-center">
+                          20
+                        </td>
+                        <td class="text-center">
+                          6
+                        </td>
+
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">3</td>
+                        <td class="text-center">
+                          Minutes
+                        </td>
+                        <td class="text-center">
+                          XPLAN-5500
+                        </td>
+                        <td class="text-center">
+                          2200
+                        </td>
+                        <td class="text-center">
+                          20
+                        </td>
+                        <td class="text-center">
+                          6
+                        </td>
+
+                        <td>
+                          <div class="dropdown  action_btn_icon">
+                            <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                                aria-expanded="false"></i>
+                              <div class="dropdown-menu">
+                                <div>
+                                  <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                    Edit</a>
+                                  </i>
+                                </div>
+                                <div>
+                                  <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                </div>
+                              </div>
+                            </center>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- --------------------------------------feedback---------------------------- -->
+          <div class="tab-pane fade" id="feedback" role="tabpanel" aria-labelledby="feedback-tab">
+            <div class="filter_section">
+              <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                  <div class="form-group-section2">
+                    <label>From</label>
+                    <input type="date" class="form-control" />
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                  <div class="form-group-section2">
+                    <label>To</label>
+                    <input type="date" class="form-control" />
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                  <div class="form-group-section2">
+                    <label>Therapist</label>
+                    <select class="form-select" aria-label="select">
+                      <option>--</option>
+                      <option>Doie</option>
+                      <option>Maria</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="table_container">
+                <div class="table-responsive">
+                  <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                    <thead>
+                      <tr class="text-center">
+                        <th scope="col">SNo</th>
+                        <th scope="col">Appointment</th>
+                        <th scope="col">Client Name</th>
+                        <th scope="col">Feedback Dt</th>
+                        <th scope="col">Booking & Reception</th>
+                        <th scope="col">Treatment & SPA</th>
+                        <th scope="col">Recommend</th>
+                        <th scope="col">Feedback Remarks</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- mobile view -->
+                      <tr class="border_table_mobileview">
+                        <td scope="row" class="text-center">1</td>
+                        <td class="text-center">
+                          <label class="tdlabel">Appointment</label>1 Dec 2023
+                          <br>4.30PM<i class="bi bi-stopwatch"></i>
+                          <br>Deep Tissue-60 &nbsp; <img src="images/girl.png" style="height: 20px;" />
+                        </td>
+                        <td class="text-center">
+                          Yuvraj chauhan
+                        </td>
+                        <td class="text-center">
+                          3-Dec 2023
+                        </td>
+                        <td class="text-center">
+                          5<img src="/images/happy.png" class="image-size" />
+                        </td>
+                        <td class="text-center">
+                          5
+                          <img src="/images/happy.png" class="image-size" />
+                        </td>
+                        <td class="text-center">
+                          5<img src="/images/happy.png" class="image-size" />
+                        </td>
+                        <td class="text-center">
+                          Good
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview">
+                        <td scope="row" class="text-center">2</td>
+                        <td class="text-center">
+                          <label class="tdlabel">Appointment</label>1 Dec 2023
+                          <br>4.30PM<i class="bi bi-stopwatch"></i>
+                          <br>Deep Tissue-60 &nbsp; <img src="images/girl.png" style="height: 20px;" />
+                        </td>
+                        <td class="text-center">
+                          Yuvraj chauhan
+                        </td>
+                        <td class="text-center">
+                          3-Dec 2023
+                        </td>
+                        <td class="text-center">
+                          5<img src="/images/done.png" class="image-size1" />
+                        </td>
+                        <td class="text-center">
+                          5
+                          <img src="/images/done.png" class="image-size1" />
+                        </td>
+                        <td class="text-center">
+                          5<img src="/images/done.png" class="image-size1" />
+                        </td>
+                        <td class="text-center">
+                          Good
+                        </td>
+                      </tr>
+
+                      <tr class="border_table_mobileview mt-2">
+                        <td scope="row" class="text-center">3</td>
+                        <td class="text-center">
+                          <label class="tdlabel">Appointment</label>1 Dec 2023
+                          <br>4.30PM<i class="bi bi-stopwatch"></i>
+                          <br>Deep Tissue-60 &nbsp; <img src="images/girl.png" style="height: 20px;" />
+                        </td>
+                        <td class="text-center">
+                          Yuvraj chauhan
+                        </td>
+                        <td class="text-center">
+                          3-Dec 2023
+                        </td>
+                        <td class="text-center">
+                          5<img src="/images/angry.png" class="image-size2" />
+                        </td>
+                        <td class="text-center">
+                          5
+                          <img src="/images/angry.png" class="image-size2" />
+                        </td>
+                        <td class="text-center">
+                          5<img src="/images/angry.png" class="image-size2" />
+                        </td>
+                        <td class="text-center">
+                          Good
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- -----------------rotation-------------------------------- -->
+
+          <div class="tab-pane fade" id="rotation" role="tabpanel" aria-labelledby="rotation-tab">
+            <div>
+              <h5>Rotation Master</h5>
+            </div>
+            <div class="row filter_section_rotate">
+              <div class="col-lg-4 col-md-4 col-xl-4 col-sm-12">
+                <div>
+                  <label>Month</label>
+                  <select class="form-select" aria-label="select">
+                    <option value="1">Jan</option>
+                    <option value="2">Feb</option>
+                    <option value="3">Mar</option>
+                    <option value="4">Apr</option>
+                    <option value="5">May</option>
+                    <option value="6">Jun</option>
+                    <option value="7">Jul</option>
+                    <option value="8">Aug</option>
+                    <option value="9">Sep</option>
+                    <option value="10">Oct</option>
+                    <option value="11">Nov</option>
+                    <option value="12">Dec</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-xl-4 col-sm-12">
+                <label>Year</label>
+                <input type="number" class="form-control" />
+              </div>
+              <div class="col-lg-4 col-md-4 col-xl-4 col-sm-12">
+                <div class="d-flex mt-3">
+                  <div>
+                    <button class="btn btn-success me-2">Search</button>
+                  </div>
+                  <div>
+                    <button class="btn btn-success">Update Rotation</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <table class="table">
+              <thead class="bold-header">
+                  <tr class="text-center tr-fontsize">
+                    <th style="padding: 19px 8px;">Therapist</th>
+                    <th>1
+                      <div>FRI</div>
+                    </th>
+                    <th style="background-color: #cccc;">2
+                      <div>SAT</div>
+                    </th>
+                    <th>3
+                      <div>SUN</div>
+                    </th>
+                    <th>4
+                      <div>MON</div>
+                    </th>
+                    <th>5
+                      <div>TUE</div>
+                    </th>
+                    <th>6
+                      <div>WED</div>
+                    </th>
+                    <th style="background-color: #cccc;">7
+                      <div>THU</div>
+                    </th>
+                    <th style="background-color: #cccc;">8
+                      <div>FRI</div>
+                    </th>
+                    <th>9
+                      <div>SAT</div>
+                    </th>
+                    <th>10
+                      <div>SUN</div>
+                    </th>
+                    <th style="background-color: #cccc;">11
+                      <div>MON</div>
+                    </th>
+                    <th>11
+                      <div>TUE</div>
+                    </th>
+                    <th>12
+                      <div>WED</div>
+                    </th>
+                    <th>13
+                      <div>THU</div>
+                    </th>
+                    <th>14
+                      <div>FRI</div>
+                    </th>
+                    <th>15
+                      <div>SAT</div>
+                    </th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr class="text-center">
+                  <td scope="row">Doie</td>
+                  <td>
+                   <input type="text"  class="rotation-border"/>
+                  </td>
+                  <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                </tr>
+
+                <tr class="text-center">
+                  <td scope="row">Maria</td>
+                  <td>
+                    <input type="text"  class="rotation-border"/>
+                  </td>
+                  <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                </tr>
+
+                <tr class="text-center">
+                  <td scope="row">Nuie</td>
+                  <td>
+                    <input type="text"  class="rotation-border"/>
+                  </td>
+                  <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                </tr>
+
+                <tr class="text-center">
+                  <td scope="row">Zaie</td>
+                  <td>
+                    <input type="text"  class="rotation-border"/>
+                  </td>
+                  <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                </tr>
+
+                <tr class="text-center">
+                  <td scope="row">Shum</td>
+                  <td>
+                   <input type="text"  class="rotation-border"/>
+                  </td>
+                  <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                   <td>
+                    <input type="text"  class="rotation-border"/>
+                   </td>
+                </tr>
+
+              </tbody>
+            </table>
+
+            
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--mobile view tab settings page start------->
+
+  <div class=" tabs-section desktop-view-display">
+    <div>
+      <nav>
+        <div class="nav nav-tabs nav-tabs-clr mb-3" id="nav-tab" role="tablist">
+          <button class="nav-link nav-link-tab active" id="registration-view-tab" data-bs-toggle="tab"
+            data-bs-target="#registration-view" type="button" role="tab" aria-controls="registration-view"
+            aria-selected="true">Registration</button>
+
+          <button class="nav-link nav-link-tab" id="therapiest-tab" data-bs-toggle="tab" data-bs-target="#therapiest"
+            type="button" role="tab" aria-controls="therapiest" aria-selected="false">Therapist</button>
+
+          <button class="nav-link nav-link-tab" id="therapy-tab" data-bs-toggle="tab" data-bs-target="#therapy"
+            type="button" role="tab" aria-controls="therapy" aria-selected="false">Therapies</button>
+
+          <button class="nav-link nav-link-tab" id="payment-tab" data-bs-toggle="tab" data-bs-target="#payment"
+            type="button" role="tab" aria-controls="payment" aria-selected="true">Pay Mode</button>
+
+          <button class="nav-link nav-link-tab" id="dealer-tab" data-bs-toggle="tab" data-bs-target="#dealer"
+            type="button" role="tab" aria-controls="dealer" aria-selected="false">Dealers</button>
+
+          <button class="nav-link nav-link-tab" id="plan-master-tab" data-bs-toggle="tab" data-bs-target="#plan-master"
+            type="button" role="tab" aria-controls="plan-master" aria-selected="false">Plan Master</button>
+
+            <button class="nav-link nav-link-tab" id="rotation-view-tab" data-bs-toggle="tab"
+            data-bs-target="#rotation-view" type="button" role="tab" aria-controls="rotation-view"
+            aria-selected="false">Rotation</button>
+
+          <button class="nav-link nav-link-tab" id="feedback-view-tab" data-bs-toggle="tab"
+            data-bs-target="#feedback-view" type="button" role="tab" aria-controls="feedback-view"
+            aria-selected="false">Feedback</button>
+        </div>
+      </nav>
+      <div class="tab-content " id="nav-tabContent">
+        <div class="tab-pane fade active show" id="registration-view" role="tabpanel" aria-labelledby="nav-home-tab">
+          <div>
+            <p class="Reg">Registration</p>
+          </div>
+
+
+          <div class="filter_section">
+            <div class="row ">
+              <div class="px-4">
+                <img src="/images/reg.png">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="mb-2">
+                    <label class="form-label">Office Name</label>
+                    <input class="form-control input-validation-error" type="text" id="txtLocationName" data-val="true"
+                      data-val-required="The LocationName field is required." name="LocationName" value="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="px-4">
+                <h5 class="section_staff mt-2">Basic Details</h5>
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="mb-2">
+                      <label class="form-label">FIRST NAME</label>
+                      <span style="color: #ca1f2b;">*</span>
+                      <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                        data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                        value="">
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="mb-2">
+                      <label class="form-label">MIDDLE NAME</label>
+                      <span style="color: #ca1f2b;">*</span>
+                      <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                        data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                        value="">
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="mb-2">
+                      <label class="form-label">LAST NAME</label>
+                      <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                        data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                        value="">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="mb-2">
+                      <label class="form-label">DATE OF BIRTH</label>
+                      <span style="color: #ca1f2b;">*</span>
+                      <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                        data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                        value="">
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="mb-2">
+                      <label class="form-label">GENDER</label>
+                      <select class="form-select" aria-label="select">
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="mb-2">
+                      <label class="form-label">REG.NO</label>
+                      <span style="color: #ca1f2b;">*</span>
+                      <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                        data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                        value="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="mb-2">
+                      <label class="form-label">JOINING DATE</label>
+                      <span style="color: #ca1f2b;">*</span>
+                      <input type="date" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="mb-2">
+                      <label class="form-label">END DATE</label>
+                      <span style="color: #ca1f2b;">*</span>
+                      <input type="date" class="form-control">
+                    </div>
+                  </div>
+
+
+
+                  <h5 class="section_staff mt-3">Contact Details</h5>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">MOBILE NO.</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">ALTERNATIVE MOBILE NO.</label>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">EMAIL ID</label>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <h5 class="section_staff mt-3">ADDRESS</h5>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">ADDRESS</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">AREA.</label>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">CITY</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">STATE</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">COUNTRY</label>
+                        <select class="form-select" aria-label="select">
+                          <option value="1">India</option>
+                          <option value="2"></option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">PINCODE</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <h5 class="section_staff mt-3">LOGIN DETAILS</h5>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">LOGIN ID</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName1"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="mb-2">
+                        <label class="form-label">PASSWORD</label>
+                        <span style="color: #ca1f2b;">*</span>
+                        <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                          data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                          value="">
+                        <i class="bi bi-eye-fill eye-btn"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class=" btn-margin">
+                    <div class="px-1">
+                      <button type="button" class="btn btn-secondary sub-btn">Submit</button>
+                    </div>
+                    <div class="px-1">
+                      <a href="">
+                        <button type="button" class="btn btn-outline-danger cancel-btn">Cancel</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- therapiest tab movbile view -->
+        <div class="tab-pane fade" id="therapiest" role="tabpanel" aria-labelledby="therapiest-tab">
+          <div class="filter_section">
+            <div class="row ">
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-">
+                  <label class="form-label">THERAPIST NAME</label>
+                  <input class="form-control" />
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-2 ">
+                  <label class="form-label">IS-ACTIVE</label>
+                  <select class="form-select" aria-label="select">
+                    <option selected>Active</option>
+                    <option>In-Active</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-2">
+                  <div class="search_btn_margin">
+                    <button type="button" class="btn btn-success ">Search</button>
+                    <a href="Settings_addnewpage.html">
+                      <button type="button" class="btn btn-secondary">+ Add New</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="table_container">
+              <div class="table-responsive">
+                <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                  <thead>
+                    <tr>
+                      <th scope="col" class="text-center">SNo</th>
+                      <th scope="col" class="text-center">Therapist</th>
+                      <th scope="col" class="text-center">Mobile No.</th>
+                      <th scope="col" class="text-center">User Role </th>
+                      <th scope="col" class="text-center">Joining Date</th>
+                      <th scope="col" class="text-center">Status</th>
+                      <th scope="col" class="text-center">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- mobile view -->
+                    <tr class="border_table_mobileview">
+                      <td scope="row" class="text-center">1</td>
+                      <td class="text-center">
+                        Doie
+                      </td>
+                      <td class="text-center">
+                        9967912940
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">User Role</label>Therapist
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Joining Date</label>2 Dec 2023
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Status</label>Active
+                      </td>
+
+                      </td>
+
+
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">2</td>
+                      <td class="text-center">
+                        Doie
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Mobile No</label>9967912940
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">User Role</label>Therapist
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Joining Date</label>2 Dec 2023
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Status</label>Active
+                      </td>
+
+                      </td>
+
+
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">3</td>
+                      <td class="text-center">
+                        Doie
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Mobile No</label>9967912940
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">User Role</label>Therapist
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Joining Date</label>2 Dec 2023
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Status</label>Active
+                      </td>
+
+                      </td>
+
+
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- therapy tab movbile view -->
+        <div class="tab-pane fade" id="therapy" role="tabpanel" aria-labelledby="therapy-tab">
+          <div class="filter_section">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-">
+                  <label class="form-label">THERIPY NAME</label>
+                  <input class="form-control" />
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-2 ">
+                  <label class="form-label">IS-ACTIVE</label>
+                  <select class="form-select" aria-label="select">
+                    <option selected>Active</option>
+                    <option>In-Active</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-2">
+                  <div class="search_btn_margin">
+                    <button type="button" class="btn btn-success ">Search</button>
+                    <a href="Settings_Therapies_AddPage.html">
+                      <button type="button" class="btn btn-secondary">+ Add New</button>
+                    </a>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="table_container">
+              <div class="table-responsive">
+                <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                  <thead>
+                    <tr>
+                      <th scope="col">SNo</th>
+                      <th scope="col">Therapy Name</th>
+                      <th scope="col">Duration (M)</th>
+                      <th scope="col">Charges</th>
+                      <th scope="col">Default Incentive</th>
+                      <th scope="col">Membership Incentive</th>
+                      <th scope="col">Sort Order</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- mobile view -->
+                    <tr class="border_table_mobileview">
+                      <td scope="row" class="text-center">1</td>
+                      <td class="text-center">
+                        Aroma Thai Therapy
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Duration (M)</label>60
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Charges</label>200
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Default Incentive</label>20
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Membership Incentive</label>30
+                      </td>
+
+                      <td class="text-center">
+                        <label class="tdlabel">Sort Order</label>999
+                      </td>
+
+
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">1</td>
+                      <td class="text-center">
+                        Aroma Thai Therapy
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Duration (M)</label>60
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Charges</label>200
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Default Incentive</label>20
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Membership Incentive</label>30
+                      </td>
+
+                      <td class="text-center">
+                        <label class="tdlabel">Sort Order</label>999
+                      </td>
+
+
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">1</td>
+                      <td class="text-center">
+                        Aroma Thai Therapy
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Duration (M)</label>60
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Charges</label>200
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Default Incentive</label>20
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Membership Incentive</label>30
+                      </td>
+
+                      <td class="text-center">
+                        <label class="tdlabel">Sort Order</label>999
+                      </td>
+
+
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- payment mode tab movbile view -->
+        <div class="tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">
+          <div class="filter_section">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-">
+                  <label class="form-label">PAY MODE</label>
+                  <select class="form-select" aria-label="select">
+                    <option selected>Cash</option>
+                    <option>Card</option>
+                    <option>P-Pay</option>
+                    <option>G-pay</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-2 ">
+                  <label class="form-label">IS-ACTIVE</label>
+                  <select class="form-select" aria-label="select">
+                    <option selected>Active</option>
+                    <option>In-active</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-2">
+                  <div class="search_btn_margin">
+                    <button type="button" class="btn btn-success ">Search</button>
+                    <a href="Settings_paymode.html">
+                      <button type="button" class="btn btn-secondary">+ Add New</button>
+                    </a>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="table_container">
+              <div class="table-responsive">
+                <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                  <thead>
+                    <tr class="text-center">
+                      <th scope="col" style="width: 0%;">SNo</th>
+                      <th scope="col" style="width: 0%;">PAY MODE</th>
+                      <th scope="col" style="width: 0%;">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- mobile view -->
+                    <tr class="border_table_mobileview">
+                      <td scope="row" class="text-center">1</td>
+                      <td class="text-center">
+                        <label class="tdlabel">PAY MODE</label>Complimentry
+                      </td>
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">2</td>
+                      <td class="text-center">
+                        <label class="tdlabel">PAY MODE</label>Cash
+                      </td>
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">3</td>
+                      <td class="text-center">
+                        <label class="tdlabel">PAY MODE</label>Card
+                      </td>
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">4</td>
+                      <td class="text-center">
+                        <label class="tdlabel">PAY MODE</label>G-pay
+                      </td>
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">5</td>
+                      <td class="text-center">
+                        <label class="tdlabel">PAY MODE</label>P-pay
+                      </td>
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- dealers tab movbile view -->
+
+        <div class="tab-pane fade" id="dealer" role="tabpanel" aria-labelledby="dealer-tab">
+          <div class="filter_section">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-">
+                  <label class="form-label">CLIENT NAME</label>
+                  <input class="form-control input-validation-error" type="text" id="txtLocationName" data-val="true"
+                    data-val-required="The LocationName field is required." name="LocationName" value="">
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-2 ">
+                  <label class="form-label">IS-ACTIVE</label>
+                  <select class="form-select" aria-label="select">
+                    <option selected>Active</option>
+                    <option>In-active</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="mb-2">
+                  <div class="search_btn_margin">
+                    <button type="button" class="btn btn-success ">Search</button>
+                    <a href="Settings_dealer.html">
+                      <button type="button" class="btn btn-secondary">+ Add New</button>
+                    </a>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- mobile view-->
+          <div class="row">
+            <div class="table_container">
+              <div class="table-responsive">
+                <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                  <thead>
+                    <tr class="text-center">
+                      <th scope="col">SNo</th>
+                      <th scope="col">DEALER NAME</th>
+                      <th scope="col">MOBILE</th>
+                      <th scope="col">STATUS</th>
+                      <th scope="col">ISDEFAULT</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <tr class="border_table_mobileview">
+                      <td scope="row" class="text-center">1</td>
+                      <td class="text-center">
+                        <label class="tdlabel">DEALER NAME</label>Dealer 1
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">MOBILE</label>9521387891
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">STATUS</label>Active
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">ISDEFAULT</label>20
+                      </td>
+
+
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- plan master tab movbile view -->
+        <div class="tab-pane fade" id="plan-master" role="tabpanel" aria-labelledby="plan-master-tab">
+          <div class="filter_section">
+            <div class="row ">
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="mb-2 ">
+                  <label class="form-label">PLAN NAME</label>
+                  <select class="form-select" aria-label="select">
+                    <option selected>XPLAN-5500</option>
+                    <option>Plan1000</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="mb-">
+                  <label class="form-label">PLAN TYPE</label>
+                  <select class="form-select" aria-label="select">
+                    <option selected>Minutes</option>
+                    <option>Amount</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="mb-">
+                  <label class="form-label">IS-ACTIVE</label>
+                  <select class="form-select" aria-label="select">
+                    <option selected>Active</option>
+                    <option>Deactive</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="mb-2">
+                  <div class="search_btn_margin d-flex">
+                    <button type="button" class="btn btn-success search-width me-1">Search</button>
+                    <a href="Settings_planmaster.html">
+                      <button type="button" class="btn btn-secondary search-width">+ Add New</button>
+                    </a>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- mobile view-->
+          <div class="row">
+            <div class="table_container">
+              <div class="table-responsive">
+                <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                  <thead>
+                    <tr class="text-center">
+                      <th scope="col">SNo</th>
+                      <th scope="col">PLAN TYPE</th>
+                      <th scope="col">PLAN NAME</th>
+                      <th scope="col">PLAN FEES</th>
+                      <th scope="col">TOTAL MINUTES</th>
+                      <th scope="col">VALIDITY(IN MONTHS)</th>
+                      <th scope="col">ACTION</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- mobile view -->
+                    <tr class="border_table_mobileview">
+                      <td scope="row" class="text-center">1</td>
+                      <td class="text-center">
+                        <label class="tdlabel">PLAN TYPE</label>Minutes
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">PLAN NAME</label>XPLAN-5500
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">PLAN FEES</label>2200
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">TOTAL MINUTES</label>20
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">VALIDITY(IN MONTHS)</label>6
+                      </td>
+
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">2</td>
+                      <td class="text-center">
+                        <label class="tdlabel">PLAN TYPE</label>Minutes
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">PLAN NAME</label>XPLAN-5500
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">PLAN FEES</label>2200
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">TOTAL MINUTES</label>20
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">VALIDITY(IN MONTHS)</label>6
+                      </td>
+
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">3</td>
+                      <td class="text-center">
+                        <label class="tdlabel">PLAN TYPE</label>Minutes
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">PLAN NAME</label>XPLAN-5500
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">PLAN FEES</label>2200
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">TOTAL MINUTES</label>20
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">VALIDITY(IN MONTHS)</label>6
+                      </td>
+
+                      <td>
+                        <div class="dropdown  action_btn_icon">
+                          <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown"
+                              aria-expanded="false"></i>
+                            <div class="dropdown-menu">
+                              <div>
+                                <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                  Edit</a>
+                                </i>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">
+                                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                              </div>
+                            </div>
+                          </center>
+                        </div>
+
+                        <div class=" action_btn mt-3">
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-light me-3">
+                              <i class="bi bi-trash"></i>
+                              <span class="px-1">Renew</span></button>
+                          </div>
+                          <div class="delete-width">
+                            <button type="button" class="btn btn-success">
+                              <i class="bi bi-pencil-square"></i>
+                              <span class="px-1">Edit</span></button>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- rotation tab movbile view -->
+<div class="tab-pane fade" id="rotation-view" role="tabpanel" aria-labelledby="rotation-view-tab">
+  <div class="filter_section">
+    <div class="row filter_section_rotate">
+      <div class="col-lg-4 col-md-4 col-xl-4 col-sm-12">
+        <div>
+          <label>Month</label>
+          <select class="form-select" aria-label="select">
+            <option value="1">Jan</option>
+            <option value="2">Feb</option>
+            <option value="3">Mar</option>
+            <option value="4">Apr</option>
+            <option value="5">May</option>
+            <option value="6">Jun</option>
+            <option value="7">Jul</option>
+            <option value="8">Aug</option>
+            <option value="9">Sep</option>
+            <option value="10">Oct</option>
+            <option value="11">Nov</option>
+            <option value="12">Dec</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-xl-4 col-sm-12 mt-2">
+        <label>Year</label>
+        <input type="number" class="form-control" />
+      </div>
+      <div class="col-lg-4 col-md-4 col-xl-4 col-sm-12">
+        <div class="d-flex mt-3">
+          <div>
+            <button class="btn btn-success me-2">Search</button>
+          </div>
+          <div>
+            <button class="btn btn-success">Update Rotation</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead class="bold-header">
+          <tr class="text-center tr-fontsize">
+            <th style="padding: 19px 8px;">Therapist</th>
+            <th>1
+              <div>FRI</div>
+            </th>
+            <th style="background-color: #cccc;">2
+              <div>SAT</div>
+            </th>
+            <th>3
+              <div>SUN</div>
+            </th>
+            <th>4
+              <div>MON</div>
+            </th>
+            <th>5
+              <div>TUE</div>
+            </th>
+            <th>6
+              <div>WED</div>
+            </th>
+            <th style="background-color: #cccc;">7
+              <div>THU</div>
+            </th>
+            <th style="background-color: #cccc;">8
+              <div>FRI</div>
+            </th>
+            <th>9
+              <div>SAT</div>
+            </th>
+            <th>10
+              <div>SUN</div>
+            </th>
+            <th style="background-color: #cccc;">11
+              <div>MON</div>
+            </th>
+            <th>11
+              <div>TUE</div>
+            </th>
+            <th>12
+              <div>WED</div>
+            </th>
+            <th>13
+              <div>THU</div>
+            </th>
+            <th>14
+              <div>FRI</div>
+            </th>
+            <th>15
+              <div>SAT</div>
+            </th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr class="text-center">
+          <td scope="row">Doie</td>
+          <td>
+           <input type="text"  class="rotation-border"/>
+          </td>
+          <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+        </tr>
+
+        <tr class="text-center">
+          <td scope="row">Maria</td>
+          <td>
+            <input type="text"  class="rotation-border"/>
+          </td>
+          <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+        </tr>
+
+        <tr class="text-center">
+          <td scope="row">Nuie</td>
+          <td>
+            <input type="text"  class="rotation-border"/>
+          </td>
+          <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+        </tr>
+
+        <tr class="text-center">
+          <td scope="row">Zaie</td>
+          <td>
+            <input type="text"  class="rotation-border"/>
+          </td>
+          <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+        </tr>
+
+        <tr class="text-center">
+          <td scope="row">Shum</td>
+          <td>
+           <input type="text"  class="rotation-border"/>
+          </td>
+          <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+           <td>
+            <input type="text"  class="rotation-border"/>
+           </td>
+        </tr>
+
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+
+  
+</div>
+
+
+        <!-- feedback tab movbile view -->
+        <div class="tab-pane fade" id="feedback-view" role="tabpanel" aria-labelledby="feedback-view-tab">
+          <div class="filter_section">
+            <div class="row">
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="form-group-section2">
+                  <label>From</label>
+                  <input type="date" class="form-control" />
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="form-group-section2">
+                  <label>To</label>
+                  <input type="date" class="form-control" />
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="form-group-section2">
+                  <label>Therapist</label>
+                  <select class="form-select" aria-label="select">
+                    <option>--Therapist--</option>
+                    <option>Doie</option>
+                    <option>Maria</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="table_container">
+              <div class="table-responsive">
+                <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                  <thead>
+                    <tr class="text-center">
+                      <th scope="col">SNo</th>
+                      <th scope="col">Appointment</th>
+                      <th scope="col">Client Name</th>
+                      <th scope="col">Feedback Dt</th>
+                      <th scope="col">Booking & Reception</th>
+                      <th scope="col">Treatment & SPA</th>
+                      <th scope="col">Recommend</th>
+                      <th scope="col">Feedback Remarks</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- mobile view -->
+                    <tr class="border_table_mobileview">
+                      <td scope="row" class="text-center">1</td>
+                      <td class="text-center">
+                        <label class="tdlabel">Appointment</label>1 Dec 2023
+                        <br>4.30PM <i class="bi bi-stopwatch"></i>
+                        <br>Deep Tissue-60 &nbsp; <img src="images/girl.png" style="height: 20px;" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Client Name</label>Yuvraj chauhan
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Feedback Date</label>3-Dec 2023
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Booking & Reception</label>
+                        5<img src="/images/happy.png" class="image-size" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Treatment & SPA</label>5
+                        <img src="/images/happy.png" class="image-size" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Recommend</label>
+                        5<img src="/images/happy.png" class="image-size" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Feedback Remarks</label>Good
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">2</td>
+                      <td class="text-center">
+                        <label class="tdlabel">Appointment</label>1 Dec 2023
+                        <br>4.30PM <i class="bi bi-stopwatch"></i>
+                        <br>Deep Tissue-60 &nbsp; <img src="images/girl.png" style="height: 20px;" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Client Name</label>Yuvraj chauhan
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Feedback Date</label>3-Dec 2023
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Booking & Reception</label>
+                        5<img src="/images/done.png" class="image-size1" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Treatment & SPA</label>5
+                        <img src="/images/done.png" class="image-size1" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Recommend</label>
+                        5<img src="/images/done.png" class="image-size1" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Feedback Remarks</label>Good
+                      </td>
+                    </tr>
+
+                    <tr class="border_table_mobileview mt-2">
+                      <td scope="row" class="text-center">3</td>
+                      <td class="text-center">
+                        <label class="tdlabel">Appointment</label>1 Dec 2023
+                        <br>4.30PM <i class="bi bi-stopwatch"></i>
+                        <br>Deep Tissue-60 &nbsp; <img src="images/girl.png" style="height: 20px;" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Client Name</label>Yuvraj chauhan
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Feedback Date</label>3-Dec 2023
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Booking & Reception</label>
+                        5<img src="/images/angry.png" class="image-size2" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Treatment & SPA</label>5
+                        <img src="/images/angry.png" class="image-size2" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Recommend</label>
+                        5<img src="/images/angry.png" class="image-size2" />
+                      </td>
+                      <td class="text-center">
+                        <label class="tdlabel">Feedback Remarks</label>Good
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile view tab settings page end -->
+
+
+
+
+
+
+
+  <div class="export-div">
+    <button class="export-btn"><i class="bi bi-file-earmark-excel"></i> Export to Excel</button>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script>
+    const menuButton = document.getElementById("menu-button");
+    const menuItems = document.getElementById("menu-items");
+
+    menuButton.addEventListener("click", function () {
+      menuItems.classList.toggle("show");
+    });
+  </script>
+
+  <!-- table hide n show butn -->
+  <script>
+    function toggleVisibility() {
+      var paragraph = document.getElementById('myParagraph');
+      paragraph.classList.toggle('hidden');
+    }
+
+    // setting page mobile view tabs
+    function myFunction() {
+      document.getElementById("show-tab").innerHTML = "Hello World";
+    }
+
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Settings_TherapiesPage</title>
+    <link rel="stylesheet" href="/style/common.css">
+    </link>
+    <link rel="stylesheet" href="/style/Index.css">
+    </link>
+    <link rel="stylesheet" href="/style/Settings_Therapies_AddPage.css">
+    </link>
+
+    <!-- Boostrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Boostrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <section>
+        <button id="menu-button">
+            <i class="bi bi-clipboard-data" style="color: #ffff; font-size: 24px"></i>
+        </button>
+        <ul id="menu-items">
+            <div class="menu-item-div">
+                <div class="label-div">
+                    <label>Today Booking</label>
+                </div>
+                <li>23</li>
+            </div>
+            <div class="menu-item-div">
+                <div class="label-div">
+                    <label>Total Booking</label>
+                </div>
+                <li>12Cr</li>
+            </div>
+            <div class="menu-item-div">
+                <div class="label-div">
+                    <label>Today Collection</label>
+                </div>
+                <li>29k</li>
+            </div>
+            <div class="menu-item-div">
+                <div class="label-div">
+                    <label>Total Collection</label>
+                </div>
+                <li>230k</li>
+            </div>
+        </ul>
+    </section>
+
+    <!-- Header Start -->
+    <header>
+        <div class="header_wrapper">
+            <div class="right-nav-side">
+                <div class="d-flex">
+                    <i class="bi bi-list me-2" style="font-size: 28px; font-weight: bold;" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+                    <div class="d-flex">
+                        <img src="images/spa.png" class="img_width me-2" />
+                        <h4 class="text_align">Miami Thai Spa</h4>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center icon_color">
+                    <div class="person_font">
+                        <i class="bi bi-person-plus-fill "></i>
+                    </div>
+                    <div class="icon_padding">
+                        <i class="bi bi-arrows-fullscreen"></i>
+                    </div>
+                    <div class="login-credien">
+                        <h5>Miami Thai Spa</h5>
+                        <h6>Administrator</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <!-- Header end -->
+    <!-- Offcanvas Start -->
+
+    <div class="offcanvas bg_offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="/images/spa.png" width="32px"
+                    class="me-2" />Miami Thai Spa</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="single_line"></div>
+            <div>
+                <a href="Index.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-house-add"></i>
+                        <h6>Home</h6>
+                    </div>
+                </a>
+                <div class="offcanvas-link">
+                    <i class="bi bi-clock"></i>
+                    <h6>Planner</h6>
+                </div>
+                <a href="Search_client.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-person"></i>
+                        <h6>Search Client</h6>
+                    </div>
+                </a>
+
+                <a href="Membership.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-people-fill"></i>
+                        <h6>Membarship</h6>
+                    </div>
+                </a>
+
+                <div class="offcanvas-link">
+                    <i class="bi bi-house-add"></i>
+                    <h6>Report</h6>
+                </div>
+                <a href="Dashboard.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-ui-checks-grid"></i>
+                        <h6>Dashboard</h6>
+                    </div>
+                </a>
+                <div class="offcanvas-link">
+                    <i class="bi bi-clipboard-data"></i>
+                    <h6>Record</h6>
+                </div>
+                <a href="Modify_Membership.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-currency-rupee"></i>
+                        <h6>Modify Membership</h6>
+                    </div>
+                </a>
+                <a href="Settings.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-gear"></i>
+                        <h6>Setting</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- offcanvas end -->
+
+
+    <div class="ul_text top-menu-section">
+        <ul>
+            <li>
+                <a href="Index.html">
+                    <div class="top-menu1">
+                        <i class="bi bi-house-add"></i>
+                        <h6>Home</h6>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <div class="top-menu1">
+                    <i class="bi bi-clock"></i>
+                    <h6>Planner</h6>
+                </div>
+            </li>
+            <li>
+                <a href="Search_client.html">
+                    <div class="top-menu1">
+                        <i class="bi bi-person"></i>
+                        <h6>Search Client</h6>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="Membership.html">
+                    <div class="top-menu1">
+                        <i class="bi bi-people-fill"></i>
+                        <h6>Membership</h6>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <div class="top-menu1">
+                    <i class="bi bi-clipboard-data"></i>
+                    <h6>Report</h6>
+                </div>
+            </li>
+            <li>
+                <a href="Dashboard.html">
+                    <div class="top-menu1">
+                        <i class="bi bi-ui-checks-grid"></i>
+                        <h6>Dashboard</h6>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <div class="top-menu1">
+                    <i class="bi bi-journal-text"></i>
+                    <h6>Records</h6>
+                </div>
+            </li>
+
+            <li>
+                <a href="Modify_Membership.html">
+                    <div class="top-menu1">
+                        <i class="bi bi-currency-rupee"></i>
+                        <h6>Modify Membership</h6>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="Settings.html">
+                    <div class="top-menu">
+                        <i class="bi bi-gear"></i>
+                        <h6>Settings</h6>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-md-2 mb-3 clr-right">
+                <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-tab " id="registration-tab" data-toggle="tab" href="#registration"
+                            role="tab" aria-controls="registration" aria-selected="true">Registration</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-tab" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="true">Therapist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-tab active" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                            aria-controls="profile" aria-selected="false">Therapies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-tab" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                            aria-controls="contact" aria-selected="false">Payment Mode</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-tab" id="list-tab" data-toggle="tab" href="#list" role="tab"
+                            aria-controls="list" aria-selected="false">Dealers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-tab" id="plan-tab" data-toggle="tab" href="#plan" role="tab"
+                            aria-controls="plan" aria-selected="false">Plan Master</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-tab" id="feedback-tab" data-toggle="tab" href="#feedback" role="tab"
+                            aria-controls="feedback" aria-selected="false">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-md-10 back-clr">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="registration" role="tabpanel"
+                        aria-labelledby="registration-tab">
+                        <div class="heading">
+                            <p>Therapies</p>
+                        </div>
+
+                        <div class="row filter_section">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="mb-2 px-3">
+                                    <label class="form-label">THERAPY NAME</label>
+                                    <span style="color: #ca1f2b;">*</span>
+                                    <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                                        data-val="true" data-val-required="The LocationName field is required."
+                                        name="LocationName" value="">
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="mb-2 px-3">
+                                        <label class="form-label">DURATION (MINUTES)</label>
+                                        <input class="form-control input-validation-error" type="text"
+                                            id="txtLocationName" data-val="true"
+                                            data-val-required="The LocationName field is required." name="LocationName"
+                                            value="">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="mb-2  px-3 ">
+                                        <label class="form-label">CHARGES (Rs.)</label>
+                                        <input class="form-control input-validation-error" type="text"
+                                            id="txtLocationName" data-val="true"
+                                            data-val-required="The LocationName field is required." name="LocationName"
+                                            value="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="mb-2 px-3">
+                                        <label class="form-label">DEFAULT INCENTIVE</label>
+                                        <input class="form-control input-validation-error" type="text"
+                                            id="txtLocationName" data-val="true"
+                                            data-val-required="The LocationName field is required." name="LocationName"
+                                            value="">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="mb-2  px-3 ">
+                                        <label class="form-label">MEMBERSHIP INCENTIVE</label>
+                                        <input class="form-control input-validation-error" type="text"
+                                            id="txtLocationName" data-val="true"
+                                            data-val-required="The LocationName field is required." name="LocationName"
+                                            value="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="mb-2 px-3">
+                                        <label class="form-label">THERAPY TYPE</label>
+                                        <span style="color: #ca1f2b;">*</span>
+                                        <select class="form-select" aria-label="select">
+                                            <option value="1"></option>
+                                            <option value="2"></option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="mb-2 px-3">
+                                        <label class="form-label">SORT ORDER</label>
+                                        <input class="form-control input-validation-error" type="text"
+                                            id="txtLocationName" data-val="true"
+                                            data-val-required="The LocationName field is required." name="LocationName"
+                                            value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="mb-2 px-3">
+                                        <label class="form-label">IS-ACTIVE</label>
+                                        <select class="form-select" aria-label="select">
+                                            <option value="1">Active</option>
+                                            <option value="2">Deactive</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="mb-2 px-3">
+                                        <label class="form-label">DESCRIPTION</label>
+                                        <input class="form-control input-validation-error" type="text"
+                                            id="txtLocationName" data-val="true"
+                                            data-val-required="The LocationName field is required." name="LocationName"
+                                            value="" style="height: 100px;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" btn-margin mt-2">
+                                <div class="px-1">
+                                    <button type="button" class="btn btn-secondary sub-btn">Submit</button>
+                                </div>
+                                <div class="px-1">
+                                    <a href="Settings.html">
+                                        <button type="button" class="btn btn-outline-danger cancel-btn">Cancel</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ---------------------Therapist page-------------------------- -->
+                    <div class="tab-pane fade " id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row filter_section">
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2 px-3">
+                                    <label class="form-label">THERAPIST</label>
+                                    <select class="form-select" aria-label="select">
+                                        <option selected>Doie</option>
+                                        <option>Maria</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2  px-3 ">
+                                    <label class="form-label">IS-ACTIVE</label>
+                                    <select class="form-select" aria-label="select">
+                                        <option selected>Active</option>
+                                        <option>De-Active</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2  px-3">
+                                    <div style="margin: 19px 0;">
+                                        <button type="button" class="btn btn-success ">Search</button>
+                                        <a href="Settings_addnewpage.html">
+                                            <button type="button" class="btn btn-secondary">+ Add New</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------------------------------Therapist page open--------------------------------- -->
+
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12 mt-3">
+                                <div class="">
+                                    <p>
+                                        Total Record Count : 6
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12 mt-3">
+                                <div class="d-flex justify-content-lg-end justify-content-md-end">
+                                    <p>Search :
+                                        <input type="search" class="placeholder search_box" aria-label="Username"
+                                            aria-describedby="addon-wrapping">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <table class="table .table_setting table-bordered">
+                            <thead class="bold-header">
+                                <tr>
+                                    <th scope="col">SNo</th>
+                                    <th scope="col">Therapist</th>
+                                    <th scope="col">Mobile</th>
+                                    <th scope="col">User Role</th>
+                                    <th scope="col">Joining Date</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Doie</td>
+                                    <td class="text-center">9967912940</td>
+                                    <td class="text-center">Therapist</td>
+                                    <td class="text-center">2 Dec 2023</td>
+                                    <td class="text-center">Active</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Doie</td>
+                                    <td class="text-center">9967912940</td>
+                                    <td class="text-center">Therapist</td>
+                                    <td class="text-center">2 Dec 2023</td>
+                                    <td class="text-center">Active</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Doie</td>
+                                    <td class="text-center">9967912940</td>
+                                    <td class="text-center">Therapist</td>
+                                    <td class="text-center">2 Dec 2023</td>
+                                    <td class="text-center">Active</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Doie</td>
+                                    <td class="text-center">9967912940</td>
+                                    <td class="text-center">Therapist</td>
+                                    <td class="text-center">2 Dec 2023</td>
+                                    <td class="text-center">Active</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Doie</td>
+                                    <td class="text-center">9967912940</td>
+                                    <td class="text-center">Therapist</td>
+                                    <td class="text-center">2 Dec 2023</td>
+                                    <td class="text-center">Active</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>Doie</td>
+                                    <td class="text-center">9967912940</td>
+                                    <td class="text-center">Therapist</td>
+                                    <td class="text-center">2 Dec 2023</td>
+                                    <td class="text-center">Active</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td>Doie</td>
+                                    <td class="text-center">9967912940</td>
+                                    <td class="text-center">Therapist</td>
+                                    <td class="text-center">2 Dec 2023</td>
+                                    <td class="text-center">Active</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- ------------------------------------Therapies page close--------------------------------- -->
+
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div>
+                            <p>Home / Master / Location</p>
+                        </div>
+
+                        <div class="row filter_section">
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2 px-3">
+                                    <label class="form-label">THERIPY NAME</label>
+                                    <select class="form-select" aria-label="select">
+                                        <option selected>Aroma Thai Therapy</option>
+                                        <option>Maria</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2  px-3 ">
+                                    <label class="form-label">IS-ACTIVE</label>
+                                    <select class="form-select" aria-label="select">
+                                        <option selected>Active</option>
+                                        <option>De-Active</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2  px-3">
+                                    <div style="margin: 30px 0;">
+                                        <button type="button" class="btn btn-success ">Search</button>
+                                        <a href="Settings_Therapies.html">
+                                            <button type="button" class="btn btn-secondary">+ Add New</button>
+                                        </a>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row mt-3 px-2">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <p>Total Record Count : 20</p>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="input-group flex-nowrap d-flex justify-content-end">
+                                    <span>Search :</span>
+                                    <input type="search" class="placeholder search_box" aria-label="Username"
+                                        aria-describedby="addon-wrapping">
+                                </div>
+                            </div>
+                        </div>
+
+                        <table class="table .table_setting table-bordered">
+                            <thead class="bold-header">
+                                <tr>
+                                    <th scope="col">SNo</th>
+                                    <th scope="col">Therapy Name</th>
+                                    <th scope="col">Duration (M)</th>
+                                    <th scope="col">Charges</th>
+                                    <th scope="col">Default Incentive</th>
+                                    <th scope="col">Membership Incentive</th>
+                                    <th scope="col">Sort Order</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Aroma Thai Therapy</td>
+                                    <td class="text-center">60</td>
+                                    <td class="text-center">1600</td>
+                                    <td class="text-center">80</td>
+                                    <td class="text-center">32</td>
+                                    <td class="text-center">999</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Aroma Thai Therapy</td>
+                                    <td class="text-center">60</td>
+                                    <td class="text-center">1600</td>
+                                    <td class="text-center">80</td>
+                                    <td class="text-center">32</td>
+                                    <td class="text-center">999</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Aroma Thai Therapy</td>
+                                    <td class="text-center">60</td>
+                                    <td class="text-center">1600</td>
+                                    <td class="text-center">80</td>
+                                    <td class="text-center">32</td>
+                                    <td class="text-center">999</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Aroma Thai Therapy</td>
+                                    <td class="text-center">60</td>
+                                    <td class="text-center">1600</td>
+                                    <td class="text-center">80</td>
+                                    <td class="text-center">32</td>
+                                    <td class="text-center">999</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Aroma Thai Therapy</td>
+                                    <td class="text-center">60</td>
+                                    <td class="text-center">1600</td>
+                                    <td class="text-center">80</td>
+                                    <td class="text-center">32</td>
+                                    <td class="text-center">999</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>Aroma Thai Therapy</td>
+                                    <td class="text-center">60</td>
+                                    <td class="text-center">1600</td>
+                                    <td class="text-center">80</td>
+                                    <td class="text-center">32</td>
+                                    <td class="text-center">999</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td>Aroma Thai Therapy</td>
+                                    <td class="text-center">60</td>
+                                    <td class="text-center">1600</td>
+                                    <td class="text-center">80</td>
+                                    <td class="text-center">32</td>
+                                    <td class="text-center">999</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- ------------------------------------paymentmode page open--------------------------------- -->
+
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div>
+                            <p>Home / Master / Location</p>
+                        </div>
+
+                        <div class="row filter_section">
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2 px-3">
+                                    <label class="form-label">CLIENT NAME</label>
+                                    <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                                        data-val="true" data-val-required="The LocationName field is required."
+                                        name="LocationName" value="">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2  px-3 ">
+                                    <label class="form-label">IS-ACTIVE</label>
+                                    <select class="form-select" aria-label="select">
+                                        <option selected>Active</option>
+                                        <option>Deactive</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2  px-3">
+                                    <div style="margin: 30px 0;">
+                                        <button type="button" class="btn btn-success ">Search</button>
+                                        <a href="Settings_paymode.html">
+                                            <button type="button" class="btn btn-secondary">+ Add New</button>
+                                        </a>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row mt-3 px-2">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <p>Total Record Count : 5</p>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="input-group flex-nowrap d-flex justify-content-end">
+                                    <span>Search :</span>
+                                    <input type="search" class="placeholder search_box" aria-label="Username"
+                                        aria-describedby="addon-wrapping">
+                                </div>
+                            </div>
+                        </div>
+
+                        <table class="table .table_setting table-bordered">
+                            <thead class="bold-header">
+                                <tr>
+                                    <th scope="col" style="width: 1%;">SNo</th>
+                                    <th scope="col" style="width: 4%;">PAY MODE</th>
+                                    <th scope="col" style="width: 4%;">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Complementary</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>P-Pay</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>G-pay</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Card</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Cash</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <!-- --------------------------------------dealers page------------------ -->
+
+                    <div class="tab-pane fade" id="list" role="tabpanel" aria-labelledby="list-tab">
+                        <div>
+                            <p>Home / Master / Location</p>
+                        </div>
+
+                        <div class="row filter_section">
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2 px-3">
+                                    <label class="form-label">CLIENT NAME</label>
+                                    <input class="form-control input-validation-error" type="text" id="txtLocationName"
+                                        data-val="true" data-val-required="The LocationName field is required."
+                                        name="LocationName" value="">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2  px-3 ">
+                                    <label class="form-label">IS-ACTIVE</label>
+                                    <select class="form-select" aria-label="select">
+                                        <option selected>Active</option>
+                                        <option>Deactive</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="mb-2  px-3">
+                                    <div style="margin: 30px 0;">
+                                        <button type="button" class="btn btn-success ">Search</button>
+                                        <a href="Settings_dealer.html">
+                                            <button type="button" class="btn btn-secondary">+ Add New</button>
+                                        </a>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row mt-3 px-2">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <p>Total Record Count : 5</p>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="input-group flex-nowrap d-flex justify-content-end">
+                                    <span>Search :</span>
+                                    <input type="search" class="placeholder search_box" aria-label="Username"
+                                        aria-describedby="addon-wrapping">
+                                </div>
+                            </div>
+                        </div>
+
+                        <table class="table .table_setting table-bordered">
+                            <thead class="bold-header">
+                                <tr>
+                                    <th scope="col">SNo</th>
+                                    <th scope="col">DEALER NAME</th>
+                                    <th scope="col">MOBILE</th>
+                                    <th scope="col">STATUS</th>
+                                    <th scope="col">ISDEFAULT</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Dealer 1</td>
+                                    <td></td>
+                                    <td class="text-center">Active</td>
+                                    <td></td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- -------------------------------------plan Master-------------------------->
+                    <div class="tab-pane fade" id="plan" role="tabpanel" aria-labelledby="plan-tab">
+                        <div>
+                            <p>Home / Master / Location</p>
+                        </div>
+
+                        <div class="row filter_section">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="mb-2  px-3 ">
+                                    <label class="form-label">PLAN NAME</label>
+                                    <select class="form-select" aria-label="select">
+                                        <option selected>XPLAN-5500</option>
+                                        <option>Plan1000</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="mb-2 px-3">
+                                    <label class="form-label">PLAN TYPE</label>
+                                    <select class="form-select" aria-label="select">
+                                        <option selected>Minutes</option>
+                                        <option>Amount</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="mb-2 px-3">
+                                    <label class="form-label">IS-ACTIVE</label>
+                                    <select class="form-select" aria-label="select">
+                                        <option selected>Active</option>
+                                        <option>Deactive</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="mb-2  px-3">
+                                    <div style="margin: 20px -17px;" class="d-flex">
+                                        <button type="button" class="btn btn-success search-width me-1">Search</button>
+                                        <a href="Settings_planmaster.html">
+                                            <button type="button" class="btn btn-secondary search-width">+ Add
+                                                New</button>
+                                        </a>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row mt-3 px-2">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <p>Total Record Count : 5</p>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="input-group flex-nowrap d-flex justify-content-end">
+                                    <span>Search :</span>
+                                    <input type="search" class="placeholder search_box" aria-label="Username"
+                                        aria-describedby="addon-wrapping">
+                                </div>
+                            </div>
+                        </div>
+
+                        <table class="table .table_setting table-bordered">
+                            <thead class="bold-header">
+                                <tr>
+                                    <th scope="col">SNo</th>
+                                    <th scope="col">PLAN TYPE</th>
+                                    <th scope="col">PLAN NAME</th>
+                                    <th scope="col">PLAN FEES</th>
+                                    <th scope="col">TOTAL MINUTES</th>
+                                    <th scope="col">VALIDITY(IN MONTHS)</th>
+                                    <th scope="col">ACTION</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Minutes</td>
+                                    <td>XPLAN-5500</td>
+                                    <td>5500</td>
+                                    <td>300</td>
+                                    <td>6</td>
+
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Minutes</td>
+                                    <td>XPLAN-7500</td>
+                                    <td>7500</td>
+                                    <td>600</td>
+                                    <td>6</td>
+
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Minutes</td>
+                                    <td>Plan1000</td>
+                                    <td>10000</td>
+                                    <td>700</td>
+                                    <td>6</td>
+
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Minutes</td>
+                                    <td>XXPLAN-8500</td>
+                                    <td>8500</td>
+                                    <td>400</td>
+                                    <td>6</td>
+
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Minutes</td>
+                                    <td>TEST PLAN1</td>
+                                    <td>6000</td>
+                                    <td>300</td>
+                                    <td>6</td>
+
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Minutes</td>
+                                    <td>XPLAN-5500</td>
+                                    <td>5500</td>
+                                    <td>300</td>
+                                    <td>6</td>
+
+                                    <td>
+                                        <div class="dropdown">
+                                            <center><i class="bi bi-three-dots-vertical" data-toggle="dropdown"
+                                                    aria-expanded="false"></i>
+                                                <div class="dropdown-menu">
+                                                    <div>
+                                                        <a class="dropdown-item" href="#"> <i
+                                                                class="bi bi-pencil-square"></i>&nbsp;
+                                                            Edit</a>
+                                                        </i>
+                                                    </div>
+                                                    <div>
+                                                        <a class="dropdown-item" href="#">
+                                                            <i class="bi bi-trash3"></i>&nbsp;delete</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <!-- --------------------------------------feedback---------------------------- -->
+                    <div class="tab-pane fade" id="feedback" role="tabpanel" aria-labelledby="feedback-tab">
+                        <div class="row filter_section">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="form-group-section2">
+                                    <label>From</label>
+                                    <input type="date" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="form-group-section2">
+                                    <label>To</label>
+                                    <input type="date" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="form-group-section2">
+                                    <label>Therapist</label>
+                                    <select class="form-select" aria-label="select">
+                                        <option>--Therapist--</option>
+                                        <option>Doie</option>
+                                        <option>Maria</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <thead class="bold-header">
+                                <tr>
+                                    <th scope="col">SNo</th>
+                                    <th scope="col">Appointment</th>
+                                    <th scope="col" style="width:14%;">Client Name</th>
+                                    <th scope="col">Feedback Dt</th>
+                                    <th scope="col" style="width: 5%;">Booking & Reception</th>
+                                    <th scope="col" style="width: 5%;">Treatment & SPA</th>
+                                    <th scope="col" style="width: 2%;">Recommend</th>
+                                    <th scope="col">Feedback Remarks</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>1 Dec 2023</br>
+                                        04.45PM <i class="bi bi-stopwatch" style="color: #173F62;"></i></br>
+                                        Deep Tissue-60</br>
+                                        <img src="/images/girl.png" style="height: 20px;" />
+                                    </td>
+                                    <td class="text-center">Yuvraj chauhan</td>
+                                    <td class="text-center">3-Dec 2023</td>
+                                    <td class="text-center">5
+                                        <img src="/images/happy.png" class="image-size" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/happy.png" class="image-size" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/happy.png" class="image-size" />
+                                    </td>
+                                    <td>Good</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>1 Dec 2023</br>
+                                        04.45PM <i class="bi bi-stopwatch" style="color: #173F62;"></i></br>
+                                        Deep Tissue-60</br>
+                                        <img src="/images/girl.png" style="height: 20px;" />
+                                    </td>
+                                    <td class="text-center">Yes chauhan</td>
+                                    <td class="text-center">3-Dec 2023</td>
+                                    <td class="text-center">5
+                                        <img src="/images/done.png" class="image-size1" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/done.png" class="image-size1" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/done.png" class="image-size1" />
+                                    </td>
+                                    <td>Good</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>1 Dec 2023</br>
+                                        04.45PM <i class="bi bi-stopwatch" style="color: #173F62;"></i></br>
+                                        Deep Tissue-60</br>
+                                        <img src="/images/girl.png" style="height: 20px;" />
+                                    </td>
+                                    <td class="text-center">Yes chauhan</td>
+                                    <td class="text-center">3-Dec 2023</td>
+                                    <td class="text-center">5
+                                        <img src="/images/angry.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/angry.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/angry.png" class="image-size2" />
+                                    </td>
+                                    <td>Good</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>1 Dec 2023</br>
+                                        04.45PM <i class="bi bi-stopwatch" style="color: #173F62;"></i></br>
+                                        Deep Tissue-60</br>
+                                        <img src="/images/girl.png" style="height: 20px;" />
+                                    </td>
+                                    <td class="text-center">Yes chauhan</td>
+                                    <td class="text-center">3-Dec 2023</td>
+                                    <td class="text-center">5
+                                        <img src="/images/nice.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/nice.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/nice.png" class="image-size2" />
+                                    </td>
+                                    <td>Good</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>1 Dec 2023</br>
+                                        04.45PM <i class="bi bi-stopwatch" style="color: #173F62;"></i></br>
+                                        Deep Tissue-60</br>
+                                        <img src="/images/girl.png" style="height: 20px;" />
+                                    </td>
+                                    <td class="text-center">Yes chauhan</td>
+                                    <td class="text-center">3-Dec 2023</td>
+                                    <td class="text-center">5
+                                        <img src="/images/wow.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/wow.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/wow.png" class="image-size2" />
+                                    </td>
+                                    <td>Good</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <!-- -----------------rotation-------------------------------- -->
+                    <div class="tab-pane fade" id="rotation" role="tabpanel" aria-labelledby="feedback-tab">
+                        <div class="row filter_section">
+                            <div class="col-lg-3">
+                                <div class="form-group-section2">
+                                    <label>From</label>
+                                    <input type="date" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div class="form-group-section2">
+                                    <label>To</label>
+                                    <input type="date" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div class="form-group-section">
+                                    <select class="form-select" aria-label="select">
+                                        <option>--Therapist--</option>
+                                        <option>Doie</option>
+                                        <option>Maria</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <thead class="bold-header">
+                                <tr>
+                                    <th scope="col">SNo</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col" style="width:14%;">Client Name</th>
+                                    <th scope="col">Feedback Dt</th>
+                                    <th scope="col" style="width: 5%;">Booking & Reception</th>
+                                    <th scope="col" style="width: 5%;">Treatment & SPA</th>
+                                    <th scope="col" style="width: 2%;">Recommend</th>
+                                    <th scope="col">Feedback Remarks</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>1 Dec 2023</br>
+                                        04.45PM <i class="bi bi-stopwatch" style="color: #173F62;"></i></br>
+                                        Deep Tissue-60</br>
+                                        Kimi
+                                    </td>
+                                    <td class="text-center">Yuvraj chauhan</td>
+                                    <td class="text-center">3-Dec 2023</td>
+                                    <td class="text-center">5
+                                        <img src="/images/happy.png" class="image-size" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/happy.png" class="image-size" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/happy.png" class="image-size" />
+                                    </td>
+                                    <td>Good</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>1 Dec 2023</br>
+                                        04.45PM <i class="bi bi-stopwatch" style="color: #173F62;"></i></br>
+                                        Deep Tissue-60</br>
+                                        Kimi
+                                    </td>
+                                    <td class="text-center">Yes chauhan</td>
+                                    <td class="text-center">3-Dec 2023</td>
+                                    <td class="text-center">5
+                                        <img src="/images/done.png" class="image-size1" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/done.png" class="image-size1" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/done.png" class="image-size1" />
+                                    </td>
+                                    <td>Good</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>1 Dec 2023</br>
+                                        04.45PM <i class="bi bi-stopwatch" style="color: #173F62;"></i></br>
+                                        Deep Tissue-60</br>
+                                        Kimi
+                                    </td>
+                                    <td class="text-center">Yes chauhan</td>
+                                    <td class="text-center">3-Dec 2023</td>
+                                    <td class="text-center">5
+                                        <img src="/images/angry.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/angry.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/angry.png" class="image-size2" />
+                                    </td>
+                                    <td>Good</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>1 Dec 2023</br>
+                                        04.45PM <i class="bi bi-stopwatch" style="color: #173F62;"></i></br>
+                                        Deep Tissue-60</br>
+                                        Kimi
+                                    </td>
+                                    <td class="text-center">Yes chauhan</td>
+                                    <td class="text-center">3-Dec 2023</td>
+                                    <td class="text-center">5
+                                        <img src="/images/nice.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/nice.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/nice.png" class="image-size2" />
+                                    </td>
+                                    <td>Good</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>1 Dec 2023</br>
+                                        04.45PM <i class="bi bi-stopwatch" style="color: #173F62;"></i></br>
+                                        Deep Tissue-60</br>
+                                        Kimi
+                                    </td>
+                                    <td class="text-center">Yes chauhan</td>
+                                    <td class="text-center">3-Dec 2023</td>
+                                    <td class="text-center">5
+                                        <img src="/images/wow.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/wow.png" class="image-size2" />
+                                    </td>
+                                    <td class="text-center">5
+                                        <img src="/images/wow.png" class="image-size2" />
+                                    </td>
+                                    <td>Good</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="export-div">
+        <button class="export-btn"><i class="bi bi-file-earmark-excel"></i> Export to Excel</button>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        const menuButton = document.getElementById("menu-button");
+        const menuItems = document.getElementById("menu-items");
+
+        menuButton.addEventListener("click", function () {
+            menuItems.classList.toggle("show");
+        });
+    </script>
+
+    <!-- table hide n show butn -->
+    <script>
+        function toggleVisibility() {
+            var paragraph = document.getElementById('myParagraph');
+            paragraph.classList.toggle('hidden');
+        }
+    </script>
+</body>
+
+</html>

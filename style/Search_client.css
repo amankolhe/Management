@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.search-section {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.btn-secondary {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    border-radius: 3px !important;
+}
+
+.search_box {
+    border: 1px solid #aaa !important;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #e5e5e5 !important;
+    margin-left: 5px !important;
+    margin-top: -4px;
+}
+.search_input{
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+.expired_bg {
+    color: black !important;
+    background-color: #d98f8f !important;
+    border-color: #d98f8f !important;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 400 !important;
+    padding: 3px;
+}
+
+.active_bg {
+    color: black !important;
+    background-color: #81d260 !important;
+    border-color: #81d260 !important;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500 !important;
+    padding: 3px;
+}
+.name_bg{
+    text-decoration: none;
+    color: black;
+}
+.name_bg:hover{
+    text-decoration:underline;
+    color: #315874;
+}
+.table th{
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.btn-width {
+    /* width: 15%; */
+    padding: 6px 17px;
+    letter-spacing: 0.4px;
+    position: relative;
+    /* bottom: 77px; */
+}
+
+.btn-width1 {
+    /* width: 15%; */
+    padding: 6px 17px;
+    letter-spacing: 0.4px;
+
+}
+.reset-clr {
+    background: #c3b8a5;
+    border-color: #c3b8a5;
+}
+
+.modal-contnt-renew{
+    height: none !important;
+}
+
+
+
+
+@media(max-width:576px){
+    .search_input{
+        display: block;
+        justify-content: initial;
+    }
+    /* .client_fontsize{
+        font-size: 12px;
+       
+    } */
+    .form-label {
+        margin:8px 0px;
+    }
+    label {
+        margin:6px 0px;
+    }
+    .form-select {
+        font-size: 14px !important;
+    }
+}  
+
+@media (min-width:768px) and (max-width:896px){
+    .search_input{
+        display: flex;
+        justify-content: start;
+    }
+    .client_fontsize{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width:768px){
+    table{
+        display: block !important;
+    }
+    
+}

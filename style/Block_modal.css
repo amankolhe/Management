@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.modal-content1 {
+    width: 55rem !important ;
+    left: -30%;
+    
+}
+
+.btn-close {
+    --bs-btn-close-opacity:unset !important;
+    --bs-btn-close-hover-opacity: unset !important;
+    /* --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); */
+    --bs-btn-close-bg: unset !important;
+    color: var(--bs-btn-close-color);
+    background: transparent var(--bs-btn-close-bg) center/1em auto no-repeat;
+    border: 0;
+    
+    outline: none;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+   
+}
+
+.close-clr {
+    width: 37px !important;
+    height: 35px !important;
+    color: #fff;
+    background-color: rgb(255, 0, 0) !important;
+    border-color: rgb(255, 0, 0) !important;
+    font-size: 25px !important;
+    border-radius: 0 !important;
+    opacity: unset;
+}
+
+.icon-size{
+    font-size: 30px !important;
+    margin: -25px 0;
+    padding: -16px 0;
+    display: flex;
+    justify-content: center;
+    padding: -42px 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+    .filter_section {
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 10px 10px;
+    }
+    
+.form-section {
+    display: flex;  
+    align-items: center;
+}
+.form-section span{
+    overflow: hidden;
+    padding: 0px 4px 0px 6px
+    
+}
+.date-time{
+    display: flex;
+    
+}
+.input_wid{
+    width: 0% !important;
+    
+}
+.navbar {
+    background: linear-gradient(to right,#173F62 0%,#173F62 100%);
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    color: #fff;
+}
+.navbar1{
+    height: 46px !important;
+}
+.arrow-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+   padding: 0 25px;
+}
+.date {
+    font-size: 15px;
+    
+}
+.card_padding{
+    padding: 15px 0px 0px 0px;  
+}
+.card_padding1{
+    padding: 15px 0px 0px 0px;
+    
+}
+.card_padding2{
+    padding: 15px  0px 0px 0px; 
+}
+.card_padding3{
+    padding: 15px  0px 0px 0px;
+}
+.search-width{
+    height: 40px !important;
+}
+.card_width{
+    width:100%;
+   
+}
+.days{ 
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 1px;
+    padding: 7px 0;
+    text-align: center;
+}
+.time-box {
+    width: 100%;
+    height: 30px;
+    margin: 3px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgb(184, 234, 184);
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .time-box:hover{
+    background-color: #173F62;
+    color: #fff;
+     
+} */
+.selected-time {
+    background-color: #173F62 !important;
+    color: #fff;
+}
+.form-section{
+    font-size: 15px;
+}
+.btns-modal {
+    text-align: right;
+    padding: 0px 10px 10px;
+    /* margin: -30px 0; */
+}
+.btns{
+    display: flex;
+    justify-content: end;
+
+}
+
+.booked-bg {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    font-weight: 200;
+}
+
+.time-width{
+    width: 147% !important;
+}
+
+
+
+@media(max-width:576px){
+    .date-time{
+        display: block;
+    }
+    .btns{
+        display: block;   
+    }
+    
+    .form-section {
+        display: block;
+            
+    }
+    
+    .time-width {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 768px){
+.form-select {
+    margin: 0;
+    width: 100% !important;
+}
+.form-control{
+    margin: 5px 0;
+}
+.modal-content1 {
+    width:unset !important;
+    height: unset !important;
+    left: unset !important;
+}
+.form-section {
+    display: block;
+        
+}
+.time-width{
+    width: 100% !important;
+}
+}
+
+@media (max-width:1200px){
+    .modal{
+        --bs-modal-margin: unset !important;
+    }
+   
+}
+@media (max-width:1024px){
+    .modal-content1 {
+        width: 50rem !important;
+        left: -30%;
+    }
+    .time-width{
+        width: 128% !important;
+    }
+}

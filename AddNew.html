@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AddNew-Management</title>
+
+  <link rel="stylesheet" href="/style/common.css">
+  </link>
+  <link rel="stylesheet" href="/style/Index.css">
+  <link rel="stylesheet" href="/style/AddNew.css">
+  </link>
+
+  <!-- Boostrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Boostrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
+
+</head>
+
+<body>
+  <section>
+    <button id="menu-button">
+      <i class="bi bi-clipboard-data" style="color: #ffff; font-size: 24px"></i>
+    </button>
+    <ul id="menu-items">
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Today Booking</label>
+        </div>
+        <li>23</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Total Booking</label>
+        </div>
+        <li>12Cr</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Today Collection</label>
+        </div>
+        <li>29k</li>
+      </div>
+      <div class="menu-item-div">
+        <div class="label-div">
+          <label>Total Collection</label>
+        </div>
+        <li>230k</li>
+      </div>
+    </ul>
+  </section>
+
+  <!-- Header Start -->
+  <header>
+    <div class="header_wrapper">
+      <div class="right-nav-side">
+        <div class="d-flex">
+          <i class="bi bi-list me-2" style="font-size: 28px; font-weight: bold;" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+          <div class="d-flex">
+            <img src="images/spa.png" class="img_width me-2" />
+            <h4 class="text_align">Miami Thai Spa</h4>
+          </div>
+        </div>
+        <div class="d-flex align-items-center icon_color">
+          <div class="person_font">
+            <i class="bi bi-person-plus-fill "></i>
+          </div>
+          <div class="icon_padding">
+            <i class="bi bi-arrows-fullscreen"></i>
+          </div>
+          <div class="login-credien">
+            <h5>Miami Thai Spa</h5>
+            <h6>Administrator</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+  <!-- Header end -->
+  <!-- Offcanvas Start -->
+
+  <div class="offcanvas bg_offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="/images/spa.png" width="32px"
+          class="me-2" />Miami Thai Spa</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="single_line"></div>
+      <div>
+        <a href="Index.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-house-add"></i>
+            <h6>Home</h6>
+          </div>
+        </a>
+        <div class="offcanvas-link">
+          <i class="bi bi-clock"></i>
+          <h6>Planner</h6>
+        </div>
+        <a href="Search_client.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-person"></i>
+            <h6>Search Client</h6>
+          </div>
+        </a>
+        <div class="offcanvas-link">
+          <i class="bi bi-people-fill"></i>
+          <h6>Membarship</h6>
+        </div>
+        <div class="offcanvas-link">
+          <i class="bi bi-house-add"></i>
+          <h6>Report</h6>
+        </div>
+        <a href="Dashboard.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-ui-checks-grid"></i>
+            <h6>Dashboard</h6>
+          </div>
+        </a>
+        <div class="offcanvas-link">
+          <i class="bi bi-clipboard-data"></i>
+          <h6>Record</h6>
+        </div>
+        <a href="Modify_Membership.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-currency-rupee"></i>
+            <h6>Modify Membership</h6>
+          </div>
+        </a>
+        <a href="Settings.html">
+          <div class="offcanvas-link">
+            <i class="bi bi-gear"></i>
+            <h6>Setting</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- offcanvas end -->
+
+
+  <div class="ul_text top-menu-section">
+    <ul>
+      <li>
+        <a href="Index.html" style="text-decoration: none;">
+          <div class="top-menu1">
+            <i class="bi bi-house-add"></i>
+            <h6>Home</h6>
+          </div>
+        </a>
+      </li>
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-clock"></i>
+          <h6>Planner</h6>
+        </div>
+      </li>
+      <li>
+        <a href="Search_client.html" style="text-decoration: none;">
+          <div class="top-menu1">
+            <i class="bi bi-person"></i>
+            <h6>Search Client</h6>
+          </div>
+        </a>
+      </li>
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-people-fill"></i>
+          <h6>Membership</h6>
+        </div>
+      </li>
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-clipboard-data"></i>
+          <h6>Report</h6>
+        </div>
+      </li>
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-ui-checks-grid"></i>
+          <h6>Dashboard</h6>
+        </div>
+      </li>
+
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-journal-text"></i>
+          <h6>Records</h6>
+        </div>
+      </li>
+
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-currency-rupee"></i>
+          <h6>Modify Membership</h6>
+        </div>
+      </li>
+
+      <li>
+        <div class="top-menu1">
+          <i class="bi bi-gear"></i>
+          <h6>Settings</h6>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- tabs start-->
+
+
+  <section>
+    <div class="tab-container" style="padding: 20px">
+      <div class="tab-section">
+        <div class="tab-body-section body-section-width">
+          <div class="row">
+            <div class="col-xl-4 col-lg-5 col-md-12  col-sm-12">
+              <div class=" form-section-name">
+                <label class="d-flex">
+                  <p class="me-2">Client Name</p>
+                  <span class="renew-btn1 ">
+                    <i data-toggle="modal" data-toggle="tooltip" data-placement="bottom" title="Click On"
+                      data-target="#exampleModal" class="bi bi-person-circle ">
+                    </i>
+                  </span>
+                </label>
+                <input type="text" class="form-control" />
+
+              </div>
+            </div>
+
+            <!--icon Person modal start -->
+            <div class="modal modal-person fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-top-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      New Page
+                    </h5>
+                    <button type="button" class="close close-clr" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" class="close-icon">&times;</span>
+                    </button>
+                  </div>
+                  <div class="new-page-border">
+                    <div class="modal-body ">
+                      <div class="row">
+                        <div class="col-lg-5 col-md-6 col-sm-12">
+                          <div>
+                            <label>Client Name</label>
+                            <input class="form-control" type="text" />
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3  col-sm-12">
+                          <div>
+                            <label>Gender</label>
+                            <select class="form-select" aria-label="select">
+                              <option selected>Male</option>
+                              <option>Female</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-3 col-sm-12">
+                          <div>
+                            <label>DOB</label>
+                            <input type="date" id="birthday" class="form-control" name="birthday" />
+                          </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-6 col-sm-12">
+                          <div>
+                            <label>City</label>
+                            <input type="text" class="form-control" placeholder="" />
+                          </div>
+                        </div>
+
+                        <div class="col-lg-7 col-md-6  col-sm-12">
+                          <div>
+                            <label>Refered By</label>
+                            <select class="form-select" aria-label="select">
+                              <option selected>--</option>
+                              <option value="1">1. Doie</option>
+                              <option value="2">2. Maria</option>
+                              <option value="3">3. Nuie</option>
+                              <option value="4">4. Shum</option>
+                              <option value="4">4. Zaie</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <div>
+                            <label>Mobile No(Whatsapp)</label>
+                            <div class="input-group flex-nowrap">
+                              <span class="input-group-text" id="addon-wrapping">+91</span>
+                              <input type="text" class="form-control" value="2" min="0" max="10" step="1"
+                                placeholder="12364785" aria-label="12364785" aria-describedby="addon-wrapping">
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <div>
+                            <label>Mobile No</label>
+                            <div class="input-group flex-nowrap">
+                              <span class="input-group-text" id="addon-wrapping">+91</span>
+                              <input type="text" class="form-control" value="2" min="0" max="10" step="1"
+                                placeholder="12364785" aria-label="12364785" aria-describedby="addon-wrapping">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                          <div>
+                            <label>Email</label>
+                            <input class="form-control" type="text" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal-line butns-padding">
+                    <button type="button" class="btn btn-success reset-clr reset-clr me-2" data-dismiss="modal">
+                      Reset
+                    </button>
+                    <button type="button" class="btn btn-success  me-2" data-dismiss="modal">
+                      Save
+                    </button>
+                    <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- person modal end -->
+            <div class="col-xl-3 col-lg-4 col-md-12  col-sm-12">
+              <div class="form-group-section">
+                <label>Mobile No</label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-12  col-sm-12">
+              <div class="form-group-section">
+                <label>Gender</label>
+                <select class="form-select" aria-label="select">
+                  <option>Select</option>
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="mb-2">
+            <div class="row">
+              <div class="col-xl-4 col-lg-5 col-md-12  col-sm-12">
+                <div class="form-group-section">
+                  <label>City</label>
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12">
+                <div class="form-group-section">
+                  <label>Date</label>
+                  <input type="date" class="form-control" />
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <div class="form-group-section">
+                  <label>From Time</label>
+                  <input type="time" class="form-control" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <div class="row">
+              <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12">
+                <div class="form-group-section">
+                  <label>To Time</label>
+                  <input type="time" class="form-control" />
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="form-group-section">
+                  <label>Room No</label>
+                  <select type="button" class="form-select" data-toggle="modal" data-target="#ModalCenter"
+                    id="roomSelect">
+                    <option selected>--</option>
+                    <option id="roomNumberDisplay"></option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="form-group-section">
+                  <label>Status</label>
+                  <select class="form-select" aria-label="select">
+                    <option selected>--</option>
+                    <option value="1">New</option>
+                    <option value="2">Check In</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line1"></div>
+
+          <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+              <div class="form-group-section">
+                <label>Therapy Name</label>
+                <select class="form-select" aria-label="select">
+                  <option selected>--</option>
+                  <option value="1">Swedish Therapy</option>
+                  <option value="2">Deep Tissue Therapy</option>
+                  <option value="3">Swedish Therapy</option>
+                  <option value="4">Aroma Thai Therapy</option>
+                  <option value="5">Balinese Therapy</option>
+                  <option value="6">Face Neck Scrub</option>
+                  <option value="7">Foot Thai Therapy</option>
+                  <option value="8">Full Body Scrub</option>
+                  <option value="9">Heaven Therapy</option>
+                  <option value="10">Miami Signature Therapy</option>
+                  <option value="11">Sport Therapy</option>
+                  <option value="12">Steam & Shower</option>
+                  <option value="13">Thai Dry Therapy</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12">
+              <div class="form-group-section">
+                <label>Min</label>
+                <select class="form-select" aria-label="select">
+                  <option value="1" selected>60</option>
+                  <option value="2">30</option>
+                  <option value="3">90</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+              <div>
+                <label>Therapist</label>
+                <select class="form-select" aria-label="select" type="button" id="therapistSelect" class="btn btn-primary"
+                  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <option id="therapistNumberDisplay">--</option>
+                </select>
+              </div>
+              <section>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content modal-therapist">
+                      <div>
+                        <h1 class="modal-title fs-5 px-3 mt-2" id="staticBackdropLabel">Therapist</h1>
+                        <button type="button" class="close close-clr" data-bs-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true" style="font-size: 30px">×</span>
+                        </button>
+                      </div>
+                      <div class="vertical-line therapist-icon">
+                        <div class="font-name-maria row-therapist">
+                          <div class="font-name hover-effect">
+                            <img src="images/girl.png" />
+                            <p>Doie</p>
+                          </div>
+                          <div class="ms-1 mt-3 available-clr">
+                           <p>Available</p>
+                          </div>
+                        </div>
+
+                        <div class="font-name-maria row-therapist">
+                          <div class="font-name">
+                            <img src="images/maria.png" />
+                            <p>Maria</p>
+                          </div>
+                          <div class="mt-2">
+                            <i class="bi bi-ban ban-icon"></i>
+                            <span>4.30 PM</span>                     
+                        </div>
+                        </div>
+
+
+                        <div class="font-name-maria row-therapist">
+                          <div class="font-name">
+                            <img src="images/nuie.png" />
+                            <p>Nuie</p>
+                          </div>
+                          <div class="ms-1 mt-3 available-clr">
+                            <p>Available</p>
+                           </div>
+                        </div>
+
+                        <div class="font-name-maria row-therapist">
+                          <div class="font-name">
+                            <img src="images/shum.png" />
+                            <p>Shum</p>
+                          </div>
+                          <div class="ms-1 mt-2">
+                            <i class="bi bi-ban ban-icon"></i>
+                            <span>4.30 PM</span>                     
+                        </div>
+                        </div>
+
+                        <div class="font-name-maria row-therapist">
+                          <div class="font-name">
+                            <img src="images/zaie.png" />
+                            <p>Zaie</p>
+                          </div>
+                          <div class="ms-1 mt-3 available-clr">
+                            <p>Available</p>
+                           </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+              </section>
+            </div>
+
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12">
+              <button class="buttons">
+                <i class="bi bi-plus"></i>
+                Add
+              </button>
+            </div>
+          </div>
+
+          <div class="tab-body-section" style="
+                display: flex;
+                flex-direction: column;
+                border: 0;
+                padding: 2px 4px;
+              ">
+            <div class="table-scroll">
+              <table class="table style-border">
+                <thead>
+                  <tr>
+                    <th scope="col">Therapy Name</th>
+                    <th scope="col">Min</th>
+                    <th scope="col">Therapist</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Deep Tissue Therapy</td>
+                    <td>90 Min</td>
+                    <td>Maria, Doie</td>
+                    <td>400</td>
+                    <td>
+                      <div class="table_display">
+                        <div class="me-3">
+                          <i class="bi bi-pencil-square" style="color: #428788; cursor: pointer;"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-trash3-fill" style="color: #dc3545; cursor: pointer"></i>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Deep Tissue Therapy</td>
+                    <td>90 Min</td>
+                    <td>Maria, Doie</td>
+                    <td>400</td>
+                    <td>
+                      <div class="table_display">
+                        <div class="me-3">
+                          <i class="bi bi-pencil-square" style="color: #428788; cursor: pointer;"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-trash3-fill" style="color: #dc3545; cursor: pointer"></i>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- mobile view -->
+
+
+            <div class="mt-5" id="myDIV">
+              <div style=" position: relative" id="paymentTable payment_id">
+                <div class="details payment-position">
+                  <p class="payment_details">Payment Details / </p>
+
+                  <div class="form-check">
+                    <input class="form-check-input form-check-input1" type="checkbox" value="" id="flexCheckChecked"
+                      checked />
+                    <p>
+                      Complimentry
+                    </p>
+                  </div>
+                </div>
+
+                <div style="display: flex; flex-direction: row; gap: 10px" class="payment-background">
+                  <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4">
+                      <div class="form-group-section">
+                        <label>Payable Fees</label>
+                        <input type="text" class="form-control" placeholder="400" />
+                      </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4">
+                      <div class="form-group-section">
+                        <label>Discount</label>
+                        <div style="
+                              display: flex;
+                              flex-direction: row;
+                              border: 1.3px solid #ced4da;
+                              border-radius: 8px;
+                              
+                            ">
+                          <select class="form-select select1" aria-label="select">
+                            <option> -- </option>
+                            <option> Rs. </option>
+                            <option> % </option>
+                          </select>
+                          <input type="text" class="form-control" style="border: 0" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4">
+                      <div class="form-group-section">
+                        <label>Payable Amt.</label>
+                        <input type="text" class="form-control" placeholder="" />
+                      </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4">
+                      <div class="form-group-section">
+                        <label>Balance Fees</label>
+                        <input type="text" class="form-control" placeholder="" />
+                      </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4">
+                      <div class="form-group-section">
+                        <label>PayMode</label>
+                        <select class="form-select" aria-label="select">
+                          <option selected>select</option>
+                          <option>Cash</option>
+                          <option>Card</option>
+                          <option>Google Pay</option>
+                          <option>PhonePe</option>
+                          <option>Complementry</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4">
+                      <div class="form-group-section">
+                        <label>Paid Fees</label>
+                        <input type="number" class="size form-control" value="2" min="0" max="10" step="1"
+                          placeholder="" />
+                      </div>
+                    </div>
+                    <div class="form-group-section row align-items-end">
+                      <div class="col-lg-6">
+                        <label>Remark</label>
+                        <input class="form-control" type="text" />
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div class="d-flex justify-content-end btns-padding">
+                          <button type="button" class="btn btn-success btn-width-details1 reset-clr me-1">
+                            Reset
+                          </button>
+                          <button type="button" class="btn btn-success btn-width me-1">
+                            Save
+                          </button>
+                          <button type="button" class="btn btn-outline-danger btn-width" data-dismiss="modal">
+                            Cancel
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="therapy-summary-section">
+          <div style="display: flex; flex-direction: row">
+            <div style="padding-right: 3px">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label form-check-width" for="flexCheckDefault">
+                  MSD <i class="bi bi-whatsapp"></i> &nbsp;
+                </label>
+              </div>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+              <label class="form-check-label form-check-width" for="flexCheckChecked">
+                Feedback
+              </label>
+            </div>
+          </div>
+
+          <div class="details1">
+            <div class="form-check">
+              <input onclick="myFunction()" class="form-check-input form-check-input2" type="checkbox"
+                id="Checktoggle" />
+              <p>
+                Use Membership
+              </p>
+            </div>
+          </div>
+          <div class="therapy-info-card">
+            <div style="padding: 2px 0">
+              <div class="active-status">
+                <div style="
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    ">
+                  <i class="bi bi-patch-check-fill" style="color: #0f9d58;"></i>
+                  <span>Active</span>
+                </div>
+              </div>
+              <div class="form-group-section">
+                <label>Plan Name</label>
+                <select class="form-select" aria-label="select">
+                  <option selected>XPLAN-5000</option>
+                </select>
+              </div>
+              <div style="padding-top: 5px">
+                <div class="form-group-section">
+                  <label>Mem. Code &#58; M-202</label>
+                </div>
+
+                <div class="form-group-section">
+                  <label>Mem. Balance &#58; 300</label>
+                </div>
+                <div class="form-group-section">
+                  <label style="color: #dc3545; font-weight: bold">Due Payment &#58; 500</label>
+                </div>
+                <div class="form-group-section">
+                  <label>Mem. Adj &#58; 200</label>
+                </div>
+                <div class="form-group-section">
+                  <label>Expairy Date &#58; 20/02/2024</label>
+                </div>
+                <div class="Renew-btn-div">
+                  <button type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="renew-btn ">
+                    Renew
+                  </button>
+                  <div style="padding-left: 10px">
+                    <button type="button" data-toggle="modal" data-target=".bd-example-modal-lg1" class="renew-btn">
+                      Edit Membership
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dailog-renew modal-lg2">
+        <div class="modal-content modal-contnt-renew" style="padding: 20px">
+          <h6 style="letter-spacing: 0.4px; font-size: 16px">
+            Renewal Membarship Plan
+            <button type="button" class="close close-clr" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" style="font-size: 30px">&times;</span>
+            </button>
+          </h6>
+
+          <div style="
+                border: 1.3px solid #dee2e6;
+                padding: 4px 13px;
+                border-radius: 8px;
+              ">
+            <div class="renewal-membership-client-details">
+              <h6>Client Name : Sanjay Joshi</h6>
+              <h6>Mobile No : 1234567890</h6>
+              <h6>Mem Code : M-202</h6>
+            </div>
+
+            <div>
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-xl-3 col-sm-12">
+                  <label>Plan Name</label>
+                  <select class="form-select" aria-label="select">
+                    <option>--</option>
+                    <option>9 Months</option>
+                    <option>6 Months</option>
+                    <option>5 Months</option>
+                    <option>3 Months</option>
+                    <option selected>XPLAN-5000</option>
+                    <option>PLAN 1000</option>
+                    <option>XPLAN-7500</option>
+                    <option>XPLAN-8500</option>
+                    <option>TEST PLAN1</option>
+                  </select>
+
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                  <label>From Date</label>
+                  <input class="form-control" type="Date" />
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                  <label>To Date</label>
+                  <input class="form-control" type="Date" />
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                  <label>Payment Date</label>
+                  <input class="form-control" type="Date" />
+                </div>
+
+                <div class="col-lg-3 col-md-2 col-xl-3 col-sm-12">
+                  <label>Plan Fees</label>
+                  <input class="form-control" type="text" />
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row mt-1">
+              <div class="col-lg-3 col-md-3 col-xl-3 col-sm-12">
+                <label>Pay Fees</label>
+                <input class="form-control" type="text" />
+              </div>
+
+              <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                <label>Payment Mode</label>
+                <select class="form-select" aria-label="select">
+                  <option selected>--</option>
+                  <option>Cash</option>
+                  <option>Card</option>
+                  <option>Google Pay</option>
+                  <option>PhonePe</option>
+                  <option>Complementry</option>
+                </select>
+              </div>
+
+              <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                <label>Refered By</label>
+                <select class="form-select" aria-label="select">
+                  <option selected>--</option>
+                  <option value="1">1. Doie</option>
+                  <option value="2">2. Maria</option>
+                  <option value="3">3. Nuie</option>
+                  <option value="4">4. Shum</option>
+                  <option value="4">4. Zaie</option>
+                </select>
+              </div>
+
+              <div class="col-lg-3 col-md-2 col-xl-3 col-sm-12">
+                <label>Prev Balance</label>
+                <input class="form-control" type="text" />
+              </div>
+
+              <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                <div class="form-check">
+                  <input class="form-check-input renew-check" type="checkbox" value="" id="flexCheckChecked" checked />
+                  <label class="form-check-label renew-label" for="flexCheckChecked">
+                    Is Carry Forward
+                  </label>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="line1"></div>
+
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12">
+                <label>Remark</label>
+                <input class="form-control" type="text" />
+              </div>
+
+
+              <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12 ">
+                <div class="btns-margin">
+                  <button type="button" class="btn btn-success  reset-clr me-1">
+                    Reset
+                  </button>
+                  <button type="button" class="btn btn-success me-1">
+                    Save
+                  </button>
+                  <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="table-scroll">
+              <table class="table">
+                <thead>
+                  <tr class="text-center">
+                    <th scope="col" style="width: 0%">SNo</th>
+                    <th scope="col" style="width: 1%">Date</th>
+                    <th scope="col" style="width: 1%">Paid Amt</th>
+                    <th scope="col" style="width: 1%">Pay Mode</th>
+                    <th scope="col" style="width: 1%">Remark</th>
+                    <th scope="col" style="width: 1%">Edit</th>
+                    <!-- <th scope="col"></th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">2023-06-23</td>
+                    <td class="text-center">4000</td>
+                    <td class="text-center">Cash</td>
+                    <td class="text-center">--</td>
+
+                    <td>
+                      <div class="text-center">
+                        <i class="bi bi-pencil-square" style="
+                            color: #428788;
+                            cursor: pointer;
+                            margin: 10px;
+                            font-size: 20px;
+                          "></i>
+                        <i class="bi bi-trash3-fill" style="
+                            color: #dc3545;
+                            cursor: pointer;
+                            font-size: 20px;
+                          "></i>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">2023-08-21</td>
+                    <td class="text-center">5000</td>
+                    <td class="text-center">Cash</td>
+                    <td class="text-center">--</td>
+                    <td>
+                      <div class="text-center">
+                        <i class="bi bi-pencil-square" style="
+                            color: #428788;
+                            cursor: pointer;
+                            margin: 10px;
+                            font-size: 20px;
+                          "></i>
+                        <i class="bi bi-trash3-fill" style="
+                            color: #dc3545;
+                            cursor: pointer;
+                            font-size: 20px;
+                          "></i>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-center">3</td>
+                    <td class="text-center">2023-10-21</td>
+                    <td class="text-center">6000</td>
+                    <td class="text-center">Cash</td>
+                    <td class="text-center">--</td>
+                    <td>
+                      <div class="text-center">
+                        <i class="bi bi-pencil-square" style="
+                            color: #428788;
+                            cursor: pointer;
+                            margin: 10px;
+                            font-size: 20px;
+                          "></i>
+                        <i class="bi bi-trash3-fill" style="
+                            color: #dc3545;
+                            cursor: pointer;
+                            font-size: 20px;
+                          "></i>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- edit Membership -->
+
+    <div class="modal bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dailog-renew modal-lg2">
+        <div class="modal-content modal-contnt-renew" style="padding: 20px">
+          <h6 style="letter-spacing: 0.4px; font-size: 16px">
+            Renewal Membarship Plan
+            <button type="button" class="close close-clr" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" style="font-size: 30px">&times;</span>
+            </button>
+          </h6>
+
+          <div style="
+                border: 1.3px solid #dee2e6;
+                padding: 15px;
+                border-radius: 8px;
+              ">
+            <div class="renewal-membership-client-details">
+              <h6>Client Name : Sanjay Joshi</h6>
+              <h6>Mobile No : 1234567890</h6>
+              <h6>Mem Code : M-202</h6>
+            </div>
+
+            <div>
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-xl-3 col-sm-12">
+                  <label>Plan Name</label>
+                  <select class="form-select" aria-label="select">
+                    <option>--</option>
+                    <option>9 Months</option>
+                    <option>6 Months</option>
+                    <option>5 Months</option>
+                    <option>3 Months</option>
+                    <option selected>XPLAN-5000</option>
+                    <option>PLAN 1000</option>
+                    <option>XPLAN-7500</option>
+                    <option>XPLAN-8500</option>
+                    <option>TEST PLAN1</option>
+                  </select>
+
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                  <label>From Date</label>
+                  <input class="form-control" type="Date" />
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                  <label>To Date</label>
+                  <input class="form-control" type="Date" />
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                  <label>Payment Date</label>
+                  <input class="form-control" type="Date" />
+                </div>
+
+                <div class="col-lg-3 col-md-2 col-xl-3 col-sm-12">
+                  <label>Plan Fees</label>
+                  <input class="form-control" type="text" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-xl-3 col-sm-12">
+                <label>Payable Amt</label>
+                <input class="form-control" type="text" />
+              </div>
+
+              <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                <label>Enter Amt</label>
+                <input class="form-control" type="text" />
+              </div>
+
+              <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                <label>Payment Balance</label>
+                <input class="form-control" type="text" />
+              </div>
+
+              <div class="col-lg-3 col-md-2 col-xl-3 col-sm-12">
+                <label>Payment Mode</label>
+                <select class="form-select" aria-label="select">
+                  <option selected>--</option>
+                  <option>Cash</option>
+                  <option>Card</option>
+                  <option>Google Pay</option>
+                  <option>PhonePe</option>
+                  <option>Complementry</option>
+                </select>
+              </div>
+
+              <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12">
+                <label>Refered By</label>
+                <select class="form-select" aria-label="select">
+                  <option selected>--</option>
+                  <option value="1">1. Doie</option>
+                  <option value="2">2. Maria</option>
+                  <option value="3">3. Nuie</option>
+                  <option value="4">4. Shum</option>
+                  <option value="4">4. Zaie</option>
+                </select>
+              </div>
+            </div>
+
+
+            <div class="line1 mt-2"></div>
+
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12">
+                <label>Remark</label>
+                <input class="form-control" type="text" />
+              </div>
+
+
+              <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12 ">
+                <div class="btns-margin">
+                  <button type="button" class="btn btn-success  reset-clr me-1">
+                    Reset
+                  </button>
+                  <button type="button" class="btn btn-success me-1">
+                    Save
+                  </button>
+                  <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="table-scroll">
+              <table class="table">
+                <thead>
+                  <tr class="text-center">
+                    <th scope="col" style="width: 0%">SNo</th>
+                    <th scope="col" style="width: 1%">Date</th>
+                    <th scope="col" style="width: 1%">Paid Amt</th>
+                    <th scope="col" style="width: 1%">Pay Mode</th>
+                    <th scope="col" style="width: 1%">Remark</th>
+                    <th scope="col" style="width: 1%">Edit</th>
+                    <!-- <th scope="col"></th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">2023-06-23</td>
+                    <td class="text-center">4000</td>
+                    <td class="text-center">Cash</td>
+                    <td class="text-center">--</td>
+
+                    <td>
+                      <div class="text-center">
+                        <i class="bi bi-pencil-square" style="
+                            color: #428788;
+                            cursor: pointer;
+                            margin: 10px;
+                            font-size: 20px;
+                          "></i>
+                        <i class="bi bi-trash3-fill" style="
+                            color: #dc3545;
+                            cursor: pointer;
+                            font-size: 20px;
+                          "></i>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">2023-08-21</td>
+                    <td class="text-center">5000</td>
+                    <td class="text-center">Cash</td>
+                    <td class="text-center">--</td>
+                    <td>
+                      <div class="text-center">
+                        <i class="bi bi-pencil-square" style="
+                            color: #428788;
+                            cursor: pointer;
+                            margin: 10px;
+                            font-size: 20px;
+                          "></i>
+                        <i class="bi bi-trash3-fill" style="
+                            color: #dc3545;
+                            cursor: pointer;
+                            font-size: 20px;
+                          "></i>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-center">3</td>
+                    <td class="text-center">2023-10-21</td>
+                    <td class="text-center">6000</td>
+                    <td class="text-center">Cash</td>
+                    <td class="text-center">--</td>
+                    <td>
+                      <div class="text-center">
+                        <i class="bi bi-pencil-square" style="
+                            color: #428788;
+                            cursor: pointer;
+                            margin: 10px;
+                            font-size: 20px;
+                          "></i>
+                        <i class="bi bi-trash3-fill" style="
+                            color: #dc3545;
+                            cursor: pointer;
+                            font-size: 20px;
+                          "></i>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- <div class="payment-btn-section modal-footer"></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----rooms---- -->
+    <section>
+      <div class="modal" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <h5 style="font-size: 16px; letter-spacing: 0.5px">
+                Available Rooms
+              </h5>
+              <button type="button" class="close close-clr" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" style="font-size: 30px">&times;</span>
+              </button>
+              <div>
+                <div class="row-line">
+                  <div class="row-home">
+                    <div class="house">
+                      <i class="bi bi-house" style="color: green; font-size: 69px"></i>
+                      <h5 class="number-icon">1</h5>
+                    </div>
+
+                    <h5 class="available">Available</h5>
+                  </div>
+                  <div class="row-home">
+                    <div class="house">
+                      <i class="bi bi-house" style="color: green; font-size: 69px"></i>
+                      <h5 class="number-icon">2</h5>
+                    </div>
+                    <h5 class="available">Available</h5>
+                  </div>
+                  <div class="row-home">
+                    <div class="house">
+                      <i class="bi bi-house" style="color: red; font-size: 69px"></i>
+                      <h5 class="number-icon">3</h5>
+                    </div>
+                    <h5 class="time">
+                      <i class="bi bi-ban" style="
+                            color: red;
+                            letter-spacing: 3px;
+                            font-size: 13px;
+                          "></i>4.30 PM
+                    </h5>
+
+                  </div>
+                  <div class="row-home">
+                    <div class="house">
+                      <i class="bi bi-house" style="color: green; font-size: 69px"></i>
+                      <h5 class="number-icon">4</h5>
+                    </div>
+                    <h5 class="available">Available</h5>
+                  </div>
+                </div>
+
+                <div class="row-line">
+                  <div class="row-home">
+                    <div class="house">
+                      <i class="bi bi-house" style="color: red; font-size: 69px"></i>
+                      <h5 class="number-icon">5</h5>
+                    </div>
+                    <h5 class="time">
+                      <i class="bi bi-ban" style="
+                            color: red;
+                            letter-spacing: 3px;
+                            font-size: 13px;
+                          "></i>5.30 PM
+                    </h5>
+
+                  </div>
+                  <div class="row-home">
+                    <div class="house">
+                      <i class="bi bi-house" style="color: green; font-size: 69px"></i>
+                      <h5 class="number-icon">6</h5>
+                    </div>
+                    <h5 class="available">Available</h5>
+                    <!-- <h5 class="available ">Maria</h5> -->
+                  </div>
+                  <div class="row-home">
+                    <div class="house">
+                      <i class="bi bi-house" style="color: red; font-size: 69px"></i>
+                      <h5 class="number-icon">7</h5>
+                    </div>
+                    <h5 class="time">
+                      <i class="bi bi-ban" style="
+                            color: red;
+                            letter-spacing: 3px;
+                            font-size: 13px;
+                          "></i>11.30 AM
+                    </h5>
+
+                  </div>
+                  <div class="row-home">
+                    <div class="house">
+                      <i class="bi bi-house" style="color: green; font-size: 69px"></i>
+                      <h5 class="number-icon">8</h5>
+                    </div>
+                    <h5 class="available">Available</h5>
+                    <!-- <h5 class="available ">Maria</h5> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- room select js -->
+
+  <script>
+    $(document).ready(function () {
+      $(".row-home").click(function () {
+        var roomNumber = $(this).find("h5").text();
+        $("#roomNumberDisplay").text(roomNumber);
+        $("#roomSelect").val(roomNumber);
+        $("#ModalCenter").modal("hide");
+      });
+
+// ----therapist modal-----
+      $(".row-therapist").click(function () {
+        var therapistName = $(this).find("p").text();
+        $("#therapistNumberDisplay").text(therapistName);
+        $("#therapistSelect").val(therapistName);
+        $("#ModalCenterTherapist").modal("hide");
+      });
+    });
+
+
+
+    // ----use membership
+
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+
+// -------therapist select--
+   
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="export-div">
+    <button class="export-btn"><i class="bi bi-file-earmark-excel"></i> Export to Excel</button>
+  </div>
+
+  <!-- table -->
+
+
+</body>
+
+</html>

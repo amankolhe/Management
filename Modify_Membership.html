@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modify_Membership</title>
+    <link rel="stylesheet" href="/style/common.css">
+    </link>
+    <link rel="stylesheet" href="/style/Index.css">
+    </link>
+    <link rel="stylesheet" href="/style/Modify_Membership.css">
+    </link>
+
+    <!-- Boostrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Boostrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
+
+</head>
+
+<body>
+    <!-- <section>
+        <button id="menu-button">
+            <i class="bi bi-clipboard-data" style="color: #ffff; font-size: 24px"></i>
+        </button>
+        <ul id="menu-items">
+            <div class="menu-item-div">
+                <div class="label-div">
+                    <label>Today Booking</label>
+                </div>
+                <li>23</li>
+            </div>
+            <div class="menu-item-div">
+                <div class="label-div">
+                    <label>Total Booking</label>
+                </div>
+                <li>12Cr</li>
+            </div>
+            <div class="menu-item-div">
+                <div class="label-div">
+                    <label>Today Collection</label>
+                </div>
+                <li>29k</li>
+            </div>
+            <div class="menu-item-div">
+                <div class="label-div">
+                    <label>Total Collection</label>
+                </div>
+                <li>230k</li>
+            </div>
+        </ul>
+    </section> -->
+
+    <!-- Header Start -->
+    <header>
+        <div class="header_wrapper">
+            <div class="right-nav-side">
+                <div class="d-flex">
+                    <i class="bi bi-list me-2" style="font-size: 28px; font-weight: bold;" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+                    <div class="d-flex">
+                        <img src="images/spa.png" class="img_width me-2" />
+                        <h4 class="text_align">Miami Thai Spa</h4>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center icon_color">
+                    <div class="person_font">
+                        <i class="bi bi-person-plus-fill "></i>
+                    </div>
+                    <div class="icon_padding">
+                        <i class="bi bi-arrows-fullscreen"></i>
+                    </div>
+                    <div class="login-credien">
+                        <h5>Miami Thai Spa</h5>
+                        <h6>Administrator</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <!-- Header end -->
+    <!-- Offcanvas Start -->
+
+    <div class="offcanvas bg_offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="/images/spa.png" width="32px"
+                    class="me-2" />Miami Thai Spa</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="single_line"></div>
+            <div>
+                <a href="Index.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-house-add"></i>
+                        <h6>Home</h6>
+                    </div>
+                </a>
+                <div class="offcanvas-link">
+                    <i class="bi bi-clock"></i>
+                    <h6>Planner</h6>
+                </div>
+                <a href="Search_client.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-person"></i>
+                        <h6>Search Client</h6>
+                    </div>
+                </a>
+                <a href="Membership.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-people-fill"></i>
+                        <h6>Membarship</h6>
+                    </div>
+                </a>
+                <div class="offcanvas-link">
+                    <i class="bi bi-house-add"></i>
+                    <h6>Report</h6>
+                </div>
+                <a href="Dashboard.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-ui-checks-grid"></i>
+                        <h6>Dashboard</h6>
+                    </div>
+                </a>
+                <div class="offcanvas-link">
+                    <i class="bi bi-clipboard-data"></i>
+                    <h6>Record</h6>
+                </div>
+                <a href="Modify_Membership.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-currency-rupee"></i>
+                        <h6>Modify Membership</h6>
+                    </div>
+                </a>
+                <a href="Settings.html">
+                    <div class="offcanvas-link">
+                        <i class="bi bi-gear"></i>
+                        <h6>Setting</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- offcanvas end -->
+
+
+    <div class="ul_text top-menu-section">
+        <ul>
+            <li>
+                <a href="Index.html" style="text-decoration: none;">
+                    <div class="top-menu1">
+                        <i class="bi bi-house-add"></i>
+                        <h6>Home</h6>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <div class="top-menu1">
+                    <i class="bi bi-clock"></i>
+                    <h6>Planner</h6>
+                </div>
+            </li>
+            <li>
+                <a href="Search_client.html" style="text-decoration: none;">
+                    <div class="top-menu1">
+                        <i class="bi bi-person"></i>
+                        <h6>Search Client</h6>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="Membership.html" style="text-decoration: none;">
+                    <div class="top-menu1">
+                        <i class="bi bi-people-fill"></i>
+                        <h6>Membership</h6>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <div class="top-menu1">
+                    <i class="bi bi-clipboard-data"></i>
+                    <h6>Report</h6>
+                </div>
+            </li>
+            <li>
+                <a href="Dashboard.html" style="text-decoration: none;">
+                    <div class="top-menu1">
+                        <i class="bi bi-ui-checks-grid"></i>
+                        <h6>Dashboard</h6>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <div class="top-menu1">
+                    <i class="bi bi-journal-text"></i>
+                    <h6>Records</h6>
+                </div>
+            </li>
+
+            <li>
+                <a href="Modify_Membership.html">
+                    <div class="top-menu">
+                        <i class="bi bi-currency-rupee"></i>
+                        <h6>Modify Membership</h6>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="Settings.html">
+                    <div class="top-menu1">
+                        <i class="bi bi-gear"></i>
+                        <h6>Settings</h6>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+    <div class="search_bgclr">
+        <h5>SEARCH CLIENT</h5>
+        <div class="search-section">
+            <div class="client_fontsize">
+                <div class="row mt-2">
+                    <div class="col-lg-3 col-md-4 col-xl-3 col-sm-12">
+                        <label>CLIENT NAME / MOBILE NO.</label>
+                        <input class="form-control input-validation-error mt-2" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xl-3 col-sm-12">
+                        <label class="form-label">PLAN NAME</label>
+                        <select class="form-select" aria-label="select">
+                            <option>--</option>
+                            <option selected>XPLAN-5000</option>
+                            <option>XPLAN-5000</option>
+                        </select>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-xl-2 col-sm-12">
+                        <label class="form-label">STATUS</label>
+                        <select class="form-select" aria-label="select">
+                            <option>Active</option>
+                            <option>In-Active</option>
+                        </select>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-xl-2 col-sm-12">
+                        <label>MEMBERSHIP CODE</label>
+                        <input class="form-control input-validation-error mt-2" type="text" id="txtLocationName"
+                            data-val="true" data-val-required="The LocationName field is required." name="LocationName"
+                            value="">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-xl-2 col-sm-12">
+                        <div class="search_input">
+                            <button type="button" class="btn btn-secondary">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-- <div class="row">
+            <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12 mt-3">
+                <div class="">
+                    <p>
+                        Total Record Count : 6
+                    </p>
+                </div>
+            </div>
+
+        </div> -->
+
+        <div class="row">
+            <div class="table_container">
+                <div class="table-responsive">
+                    <table class="table table_clr table-bordered Nextedtable TableResponsive" id="tblMembershipPrint">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="text-center">SNo</th>
+                                <th scope="col" class="text-center" style="width: 15%;">Mem Code</th>
+                                <th scope="col" class="text-center">Plan Name </th>
+                                <th scope="col" class="text-center">Total Mem Fees</th>
+                                <th scope="col" class="text-center" style="width: 10%;">Date</th>
+                                <th scope="col" class="text-center">Total Benefit</th>
+                                <th scope="col" class="text-center">Balance</th>
+                                <th scope="col" class="text-center">Used</th>
+                                <th scope="col" class="text-center">Pay Mode</th>
+                                <th scope="col" class="text-center">Status</th>
+                                <th scope="col" class="text-center">Paid</th>
+                                <th scope="col" class="text-center">Balance</th>
+                                <th scope="col" class="text-center">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- mobile view -->
+                            <tr class="border-table-view">
+                                <td scope="row">1</td>
+                                <td class="text-start">
+                                    <p style="color:maroon;font-weight: 600;">M016</p>
+                                    Ajay Nisad<br>
+                                    9359782448
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Plan Name</label>XPLAN-7500
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Total Mem Fees</label>5500
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">From Date</label>04 Apr 23 <br>
+
+                                    <label class="tdlabel">To Date</label>04 Oct 23
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Total Benefit</label>300
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Balance</label>0
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Used</label>0
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Pay Mode</label>Cash
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Status</label>Active
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Paid</label>7500
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Balance</label>0
+                                </td>
+                                <td>
+                                    <div class="dropdown  action_btn_icon">
+                                        <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                          <div class="dropdown-menu">
+                                            <div>
+                                              <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                                Edit</a>
+                                              </i>
+                                            </div>
+                                            <div>
+                                              <a class="dropdown-item" href="#">
+                                                <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                            </div>
+                                          </div>
+                                        </center>
+                                      </div>
+                                      
+                                      <div class=" action_btn mt-3">
+                                        <div class="delete-width">
+                                            <button type="button" class="btn btn-light me-3">
+                                                <i class="bi bi-trash"></i>
+                                            <span class="px-1">Renew</span></button>
+                                        </div>
+                                        <div class="delete-width">
+                                            <button type="button" class="btn btn-success">
+                                                <i class="bi bi-pencil-square"></i>
+                                            <span class="px-1">Edit</span></button>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="border-table-view1">
+                                <td scope="row">2</td>
+                                <td class="text-start">
+                                    <p style="color:maroon;font-weight: 600;">M-202</p>
+                                    Sanjay Joshi<br>
+                                    9359782448
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Plan Name</label>XPLAN-7500
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Total Mem Fees</label>5500
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">From Date</label>04 Apr 23 <br>
+
+                                    <label class="tdlabel">To Date</label>04 Oct 23
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Total Benefit</label>300
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Balance</label>0
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Used</label>0
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Pay Mode</label>Gpay
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Status</label>Active
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Paid</label>7500
+                                </td>
+                                <td class="text-center">
+                                    <label class="tdlabel">Balance</label>0
+                                </td>
+                                <td>
+                                    <div class="dropdown action_btn_icon">
+                                        <center><i class="bi bi-three-dots-vertical " data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                          <div class="dropdown-menu">
+                                            <div>
+                                              <a class="dropdown-item" href="#"> <i class="bi bi-pencil-square"></i>&nbsp;
+                                                Edit</a>
+                                              </i>
+                                            </div>
+                                            <div>
+                                              <a class="dropdown-item" href="#">
+                                                <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Renew</a>
+                                            </div>
+                                          </div>
+                                        </center>
+                                      </div>
+                                      
+                                      <div class="action_btn mt-3">
+                                        <div class="delete-width">
+                                            <button type="button" class="btn btn-light me-3">
+                                                <i class="bi bi-trash"></i>
+                                            <span class="px-1">Renew</span></button>
+                                        </div>
+                                        <div class="delete-width">
+                                            <button type="button" class="btn btn-success">
+                                                <i class="bi bi-pencil-square"></i>
+                                            <span class="px-1">Edit</span></button>
+                                        </div>
+                                    </div>
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="d-flex justify-content-end">
+            <a href="New_ModifyMembership.html">
+                <button type="button" class="btn btn-success me-2">New</button>
+              </a>
+            <a href="Edit_ModifyMembership.html">
+            <button type="button" class="btn btn-success me-2">Edit Membership</button>
+          </a>
+          <a href="Renew_ModifyMembership.html">
+          <button type="button" class="btn btn-success btn-renew1">Renew</button>
+          </a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="export-div">
+        <button class="export-btn"><i class="bi bi-file-earmark-excel"></i> Export to Excel</button>
+    </div>
+
+
+
+    <script>
+        const menuButton = document.getElementById("menu-button");
+        const menuItems = document.getElementById("menu-items");
+
+        menuButton.addEventListener("click", function () {
+            menuItems.classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>

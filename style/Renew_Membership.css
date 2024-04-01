@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.tab-content {
+        padding: 0;
+    margin: 0;
+    background-color: #e6e6e6;
+    padding: 14px 20px 50px 20px;
+    border-top: 1px solid #cccc;
+    border-bottom: 1px solid #cccc;
+}
+.filter_section {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.renewal-membership-client-details {
+    display: flex;
+    gap: 25px;
+    background-color: lightblue;
+    padding:5px 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+th,td{
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px !important;
+}
+.sub-btn {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+   
+}
+.vertical-line {
+    border-left: 1px solid green;
+    height: 21px;
+    position: relative;
+    left: 0%;
+    top: 0;
+}
+
+.sub-btn {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+}
+.btns-margin {
+    display: flex;
+    justify-content: end;
+    padding-top: 22px;
+}
+
+.reset-clr{
+    background-color: lightgray !important;
+    border-color: lightgray !important;
+}
+
+
+
+
+
+@media (max-width: 576px){
+    .table-fontsize tr{
+        font-size: 12px;
+    }
+    .renewal-membership-client-details{
+        display: block;
+       
+    }
+    .form-label {
+        margin:8px 0px;
+    }
+    label {
+        margin:6px 0px;
+    }
+}
+
+@media (max-width: 768px){
+    .btns-margin {
+        display: block;
+        justify-content: end;
+        padding-top: 22px;
+    }
+    .table-scroll {
+        overflow-x: scroll;
+        white-space: nowrap;
+        flex-wrap: nowrap !important;
+    
+    }
+}
+
+
+
+@media (max-width: 1200px){
+.form-select {
+    margin: 0;
+    width: 100% !important;
+}
+
+}
